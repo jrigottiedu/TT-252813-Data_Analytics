@@ -5,6 +5,8 @@ const GlobalProvider = ({ children }) => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
   const [desktopView, setDesktopView] = useState(false);
   const [showNavSidebar, setShowNavSidebar] = useState(false);
+  const [activeLink, setActiveLink] = useState(2)
+
 
   useEffect(() => {
     function handleResize() {
@@ -21,7 +23,7 @@ const GlobalProvider = ({ children }) => {
 
   return (
     <GlobalContext.Provider
-      value={{ desktopView, showNavSidebar, setShowNavSidebar }}
+      value={{ desktopView, showNavSidebar, setShowNavSidebar, activeLink, setActiveLink}}
     >
       {children}
     </GlobalContext.Provider>
