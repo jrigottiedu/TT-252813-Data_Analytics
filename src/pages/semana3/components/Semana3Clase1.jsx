@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Semana2Clase1 = () => {
+const Semana3Clase1 = () => {
     return (
         <div>
-            <h1 className="title-class">Clase 1 | Lunes 31 de marzo</h1>
+            <h1 className="title-class">Clase 2 | Lunes 7 de abril</h1>
 
             <section className="home-info-container">
 
@@ -64,4 +64,4 @@ const Semana2Clase1 = () => {
     )
 }
 
-export default Semana2Clase1
+export default Semana3Clase1

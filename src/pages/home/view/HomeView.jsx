@@ -1,12 +1,21 @@
 import React from "react";
-import Home1 from "../components/home1";
 import HomeDupla from "../components/HomeDupla";
+import HomeClass from "../components/HomeClass";
+import HomeAfterClass from "../components/HomeAfterClass";
+import HomeAulaVirtual from "../components/HomeAulaVirtual";
+import HomeDiscord from "../components/HomeDiscord";
+import HomePautasConvivencia from "../components/HomePautasConvivencia";
+
 
 const HomeView = () => {
   return (
     <div>
       <HomeDupla />
-      <Home1 />
+      <HomeClass />
+      <HomeAfterClass />
+      <HomeAulaVirtual />
+      <HomeDiscord />
+      <HomePautasConvivencia />
     </div>
   );
 };

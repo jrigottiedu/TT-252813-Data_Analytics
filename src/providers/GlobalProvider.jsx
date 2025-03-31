@@ -5,7 +5,7 @@ const GlobalProvider = ({ children }) => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
   const [desktopView, setDesktopView] = useState(false);
   const [showNavSidebar, setShowNavSidebar] = useState(false);
-  const [activeLink, setActiveLink] = useState(2)
+  const [activeLink, setActiveLink] = useState(1)
 
 
   useEffect(() => {

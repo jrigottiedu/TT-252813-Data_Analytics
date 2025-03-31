@@ -26,7 +26,7 @@ const Layout = ({ children }) => {
       {/* Main container */}
       <div
         className={
-          desktopView ? "flex w-full min-h-screen" : "relative w-full h-screen"
+          desktopView ? "flex w-full min-h-screen" : "relative w-full min-h-screen"
         }
       >
         {/* Sidebar */}
