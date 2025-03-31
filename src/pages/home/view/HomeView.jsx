@@ -5,6 +5,8 @@ import HomeAfterClass from "../components/HomeAfterClass";
 import HomeAulaVirtual from "../components/HomeAulaVirtual";
 import HomeDiscord from "../components/HomeDiscord";
 import HomePautasConvivencia from "../components/HomePautasConvivencia";
+import HomeEvaluacion from "../components/HomeEvaluacion";
+import HomePFI from "../components/HomePFI";
 
 
 const HomeView = () => {
@@ -16,6 +18,8 @@ const HomeView = () => {
       <HomeAulaVirtual />
       <HomeDiscord />
       <HomePautasConvivencia />
+      <HomeEvaluacion />
+      <HomePFI />
     </div>
   );
 };
