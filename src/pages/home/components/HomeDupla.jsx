@@ -12,7 +12,7 @@ const HomeDupla = () => {
           </a>
         </p>
         <p>
-          <strong>Instructor:</strong>Juan Pablo Rigotti - {" "}
+          <strong>Instructor: </strong>Juan Pablo Rigotti - {" "}
           <a
             href="mailto:[juan.rigotti@bue.edu.ar]"
             className="text-blue-500 underline"
