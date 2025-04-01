@@ -6,7 +6,7 @@ import Semana3View from "../../pages/semana3/view/Semana3View";
 import Layout from "../layout/Layout";
 import IdesView from "../../pages/ides/view/IdesView";
 
-export const appRouter = createBrowserRouter([
+export const appRouter = createHashRouter([
   {
     path: "/",
     element: (
