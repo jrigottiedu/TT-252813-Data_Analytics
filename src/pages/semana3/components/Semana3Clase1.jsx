@@ -75,10 +75,18 @@ const Semana3Clase1 = () => {
                     </ul>
                 </div>
 
-                {/* Code Snippets */}
-                {/* <div>
-                    <h2 className='title-h2'>Code Snippets</h2>
-                </div> */}
+               {/* Temas para la próxima clase */}
+               <div>
+                    <h2 className='title-h2'>Temas a ver en Clase 3</h2>
+                    <ul className='list-disc list-inside'>
+                        <li>Condicionales Parte I</li>
+                        <li>Operadores lógicos</li>
+                        <li>Operadores relacionales</li>
+                        <li>Control de flujo</li>
+                        <li>Estructuras condicionales if, else, elif</li>
+                        <li>Comentarios en el código</li>
+                    </ul>
+                </div>
 
                 {/* Miscelaneas */}
                 <div>
