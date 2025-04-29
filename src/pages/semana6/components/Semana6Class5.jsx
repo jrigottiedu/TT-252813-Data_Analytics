@@ -18,7 +18,7 @@ const Semana6Class5 = () => {
                         <li>En Python, un Bucle while se usa para repetir la ejecución de un bloque de código
                         mientras se cumpla una condición. </li>
                         <li>Vimos la sintáxis junto con contadores y acumuladores <a href='https://github.com/jrigottiedu/TT-1C2025-25011-codigo-de-clases/blob/master/semana_6/clase_5/ciclo_while_acumulador.py' target='_blank' className='link'>Ver código aquí</a></li>
-                        <li>Introducimos el uso de la sentencia Break para detener el flujo del código <a href='https://github.com/jrigottiedu/TT-1C2025-25011-codigo-de-clases/blob/master/semana_6/clase_5/ciclo_while_break.py' target='_blank' className='link'></a></li>
+                        <li>Introducimos el uso de la sentencia Break para detener el flujo del código <a href='https://github.com/jrigottiedu/TT-1C2025-25011-codigo-de-clases/blob/master/semana_6/clase_5/ciclo_while_break.py' target='_blank' className='link'></a>Ver código aquí</li>
                         <li>Introducimos el uso de la sentencias Continue para omitir la iteración y retornar a la condición del While <a href="https://github.com/jrigottiedu/TT-1C2025-25011-codigo-de-clases/blob/master/semana_6/clase_5/ciclo_while_continue.py" target='_blank' className='link'>Ver código aquí</a></li>
                         <li>Repasamos cadenas con índices para introducir listas <a href="https://github.com/jrigottiedu/TT-1C2025-25011-codigo-de-clases/blob/master/semana_6/clase_5/repaso_cadenas_metodos.py" target='_blank' className='link'></a> </li>
                         <li><strong>Les arme un material complementario con el uso de while en casos prácticos, les sugiero que lo vean </strong>
