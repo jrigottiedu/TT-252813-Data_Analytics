@@ -55,7 +55,7 @@ const Semana6Class5 = () => {
                 {/* Recordatorios */}
                 <div>
                     <h2 className='title-h2'>Recordatorios</h2>
-                    <ul>
+                    <ul className='list-disc list-inside'>
                         <li>Los que adeuden el Cuestionario 2 de la clase 4, porfi traten de completarlo - <a href="https://www.youtube.com/watch?v=avxXXV6U2-I&list=PLR6qrffywxhDoihz7VcDGyNbVnksVtXnx&index=1" target="_blank" className='link'>Ver aquí resolución</a></li>
                         <li>Resolver el ejercio de la clase 5 que encuentran en el campus - <a href="https://docs.google.com/presentation/d/1Mh7kDSXG9TRIVTILQrJMGk3POIJlpe_Z/edit?usp=sharing&ouid=115334316874644775342&rtpof=true&sd=true" target='_blank' className='link'>también puede ver aquí</a></li>
                         <li>Nos encontramos el miércoles 30 de abril a las 19:00 en Meet - tienen el link en la sección Inicio</li>
