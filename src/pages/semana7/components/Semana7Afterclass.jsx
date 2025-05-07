@@ -4,39 +4,21 @@ const Semana7Afterclass = () => {
   return (
     <div>
       <h1 className="title-afterclass">After Class | Miércoles 7 de mayo</h1>
-      {/* <section className="home-info-container">
-        <p className='font-bold'>Resolvimos el ejercicio de la clase 5 - <a href="https://docs.google.com/presentation/d/1Mh7kDSXG9TRIVTILQrJMGk3POIJlpe_Z/edit?usp=sharing&ouid=115334316874644775342&rtpof=true&sd=true" target='_blank' className='link'>Ver enunciado aquí</a></p>
+      <section className="home-info-container">
+        <p className='font-bold'>Ejercicio de la clase 6 - <a href="https://gamma.app/docs/Python-INICIAL-CLASE-6-Ejercicios-19oiif7ooz0s5qc?mode=doc" target='_blank' className='link'>Ver enunciado aquí</a></p>
         <ul className='list-disc list-inside'>
-          <li>Separamos el ejercio en Parte A y Parte B</li>
-          <li>Parte A: consiste en agregar validación al ingreso de datos, nombre, apellido, edad y correo</li>
-          <li>Parte B: consiste en registrar los ingresos mensuales haciendo las validaciones necesarias</li>
-          <li>Dedicamos el After a la parte B, analizando alternativas y repasando conceptos clave</li>
-          <li>Usamos el método isdigit() para validar que los valores ingresados sean numéricos antes de convertirlos a int, pero nos encontramos con un problema: si ingreso un numero con decimales, isdigit no lo reconoce como tal.</li>
-          <li>Usamos una herramienta de IA para ver una solución alternativa, pero la estructura de código sugerida la vamos a ver más adelante en nuestro curso</li>
-          <li>Por lo tanto validamos con las herramientas que sabemos, con las limitaciones de cada una</li>
-          <li><a href='https://github.com/jrigottiedu/TT-1C2025-25011-codigo-de-clases/blob/master/semana_6/after_class/ejercicio_clase_5.py' target='_blank' className='link'>Ver codigo resolución del ejercicio</a></li>
-          <li><a href="https://www.youtube.com/watch?v=4Op8TwTgv9g" target='_blank' className='link'>Ver video con resolución</a></li>
+          <li>Creamos la lista usando IA (se sugiere para generar variables con muchos datos)</li>
+          <li>Iteramos la lista usando bucles while y for, y analizamos las ventajas y desventajas de cada uno</li>
+          <li>Usamos el Debug para Troubleshooting (encontrar el error)</li>
+          <li><a href='https://www.youtube.com/watch?v=z1iT2sJxCtM&list=PLR6qrffywxhDoihz7VcDGyNbVnksVtXnx&index=2' target='_blank' className='link'>Ver Video con la resolución del ejercicio</a></li>
+          <li><a href="https://github.com/jrigottiedu/TT-1C2025-25011-codigo-de-clases/blob/master/semana_7/after_class/ejercicio.py" target='_blank' className='link'>Ver código del ejercicio resuelto</a></li>
         </ul>
-        <p className='pt-2'>Códigos adicionales</p>
+        <p className='font-bold  pt-5'>Cuestionario #3 de la clase 6 - lo encuentran en el Campus Virtual</p>
         <ul className='list-disc list-inside'>
-          <li><a href="https://github.com/jrigottiedu/TT-1C2025-25011-codigo-de-clases/blob/master/semana_6/after_class/repaso_metodos.py" target='_blank' className='link'>Repaso de métodos</a></li>
-          <li><a href="https://github.com/jrigottiedu/TT-1C2025-25011-codigo-de-clases/blob/master/semana_6/after_class/validar_ingresos.py" target='_blank' className='link'>Estructuras de código para validación de datos</a></li>
+          <li><a href="https://www.youtube.com/watch?v=hjx-1UD7Dp4&list=PLR6qrffywxhDoihz7VcDGyNbVnksVtXnx&index=1" target='_blank' className='link'>Video con la resolución del cuestionario</a></li>
+          <li><a href="https://github.com/jrigottiedu/TT-1C2025-25011-codigo-de-clases/blob/master/semana_7/after_class/cuestionario.py" target='_blank' className='link'>Código de soporte para la resolución del cuestionario</a></li>
         </ul>
-        <p className='pt-3 font-bold'>Desafío: "Guess the number" (Adivine el número)</p>
-        <p>Sugerimos como ejercicio complementario hacer un juego en el que el usuario debe adivinar un númeor oculto entre 0 y 9.</p>
-        <ul className='list-disc list-inside'>
-          <li>Ver enunciado en el archivo de codigo</li>
-          <li>En una primera versión, el número esta definido como constante en una variable y el usuario no tiene límites de intentos</li>
-          <li>En una segunda versión, se sugiere agregar un límite de intentos de 3</li>
-          <li>Durante el After surgió la idea que el usuario ingrese su nombre y edad, y así generar el número oculto como la suma de los caracteres de su nombre y edad</li>
-          <li>También propusimos usar una herramienta de IA (Chat GPT, Gemini, Copilot, etc) y averiguar cómo generar ese número de forma aleatoria</li>
-        </ul>
-        <p>Iniciamos la codificación</p>
-        <ul className='list-disc list-inside'>
-          <li><a href='https://github.com/jrigottiedu/TT-1C2025-25011-codigo-de-clases/blob/master/semana_6/after_class/adivinar_numero.py' target='_blank' className='link'>Ver codigo con anotaciones importantes</a></li>
-          <li><a href="https://www.youtube.com/watch?v=4Op8TwTgv9g" target='_blank' className='link'>Ver video con resolución - Hacer click en 01:18:00</a></li>
-        </ul>
-      </section> */}
+      </section>
     </div>
   )
 }
