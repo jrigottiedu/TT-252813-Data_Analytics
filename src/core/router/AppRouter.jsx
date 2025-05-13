@@ -7,8 +7,10 @@ import Semana4View from "../../pages/semana4/view/Semana4View";
 import Semana5View from "../../pages/semana5/view/Semana5View";    
 import Semana6View from "../../pages/semana6/view/Semana6View";    
 import Semana7View from "../../pages/semana7/view/Semana7View";    
+import Semana8View from "../../pages/semana8/view/Semana8View";
 import Layout from "../layout/Layout";
 import IdesView from "../../pages/ides/view/IdesView";
+import PreEntrega from "../../pages/Pre-entrega PFI/view/PreEntrega";
 
 export const appRouter = createHashRouter([
   {
@@ -16,6 +18,14 @@ export const appRouter = createHashRouter([
     element: (
       <Layout>
         <HomeView />
+      </Layout>
+    ),
+  },
+  {
+    path: "/preEntrega",
+    element: (
+      <Layout>
+        <PreEntrega />
       </Layout>
     ),
   },
@@ -72,6 +82,14 @@ export const appRouter = createHashRouter([
     element: (
       <Layout>
         <Semana7View />
+      </Layout>
+    ),
+  },
+  {
+    path: "/semana8",
+    element: (
+      <Layout>
+        <Semana8View />
       </Layout>
     ),
   },

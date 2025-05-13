@@ -5,9 +5,9 @@ import Semana7Afterclass from "../components/Semana7Afterclass";
 const Semana7View = () => {
   return (
     <div>
-        {/* Class 6 */}
+        {/* Class 7 */}
         <Semana7Class6 />
-        {/* Class 6 */}
+        {/* Class 7 */}
         <Semana7Afterclass/>
     </div>
   )
