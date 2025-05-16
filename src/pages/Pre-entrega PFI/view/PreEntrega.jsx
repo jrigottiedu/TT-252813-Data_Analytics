@@ -11,7 +11,7 @@ const PreEntrega = () => {
                         <strong>Publicación oficial de la consigna:</strong> Campus Virtual en Clase 8 el lunes 19 de mayo
                     </div>
                     <div>
-                        <strong>Fecha de entrega:</strong> Hasta el domingo 25 de mayo a la medianoche
+                        <strong>Fecha de entrega:</strong> Hasta el domingo 25 de mayo a la medianoche <strong>Se ha decidido extender 1 semana más hasta el domingo 1 de junio</strong>
                     </div>
                     <div>
                         <strong>Modalidad de entrega:</strong> Archivo .py en un repositorio en la nube (Google Drive)
