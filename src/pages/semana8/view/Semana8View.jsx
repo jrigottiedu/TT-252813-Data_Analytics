@@ -7,7 +7,7 @@ const Semana8View = () => {
     <div>
         {/* Class 7 */}
         <Semana8Class7 />
-        {/* Class 7 */}
+        {/* After class 7 */}
         <Semana8Afterclass />
     </div>
   )
