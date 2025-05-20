@@ -57,7 +57,7 @@ const Semana9Class8 = () => {
                         <li>Los que adeuden el <span className='font-semibold'>Cuestionario # 3 de la clase 6</span>, porfi traten de completarlo - <a href="https://www.youtube.com/watch?v=hjx-1UD7Dp4&list=PLR6qrffywxhDoihz7VcDGyNbVnksVtXnx&index=1" target="_blank" className='link'>Ver aquí resolución</a></li>
                         <li>Resolver el cuestionario de Autoevalución en clase 8 - re fácil, re cortito</li>
                         <li>Resolver el ejercio de la clase 8 que encuentran en el campus - <a href="https://docs.google.com/presentation/d/13mORodcBu2J0EE9p8efLt8cEBVu7uDU9/edit?usp=sharing&ouid=115334316874644775342&rtpof=true&sd=true" target='_blank' className='link'>también puede ver aquí</a></li>
-                        <li>Nos encontramos el miércoles 22 de mayo a las 19:00 en Meet - tienen el link en la sección Inicio</li>
+                        <li>Nos encontramos el miércoles 21 de mayo a las 19:00 en Meet - tienen el link en la sección Inicio</li>
                         <li><strong>Espacio de consulta para la pre-entrega</strong> Este sábado 24 de mayo de 14:30 a 16:30 hs, en el mismo Meet del After Class</li>
                     </ul>
                 </div>
