@@ -3,7 +3,7 @@ import React from 'react'
 const Semana9Afterclass = () => {
   return (
     <div>
-      <h1 className="title-afterclass">After Class | Miércoles 22 de mayo</h1>
+      <h1 className="title-afterclass">After Class | Miércoles 21 de mayo</h1>
       {/* <section className="home-info-container">
         <p className='font-bold pb-2'>Trabajamos en las opciones del Menú para la Pre-entrega</p>
 
