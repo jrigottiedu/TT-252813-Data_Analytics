@@ -4,11 +4,11 @@ const Semana9Afterclass = () => {
   return (
     <div>
       <h1 className="title-afterclass">After Class | Miércoles 21 de mayo</h1>
-      {/* <section className="home-info-container">
-        <p className='font-bold pb-2'>Trabajamos en las opciones del Menú para la Pre-entrega</p>
+      <section className="home-info-container">
+        <p className='font-bold pb-2'>Resolvimos el ejercicio de la clase 8 bajo el enfoque "Vibe Coding"</p>
 
         <a
-          href="https://www.youtube.com/watch?v=giH54Gv74j0"
+          href="https://www.youtube.com/watch?v=hpfo3f-0iF0"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-2 no-underline text-gray-700 hover:text-red-600 transition-colors duration-200 pb-5"
@@ -19,95 +19,52 @@ const Semana9Afterclass = () => {
 
 
         <div className='bg-gray-100 p-2 border border-gray-400 rounded-xl mb-10 w-full'>
-          <p className='font-bold pb-2'>Versión 1 - Enfoque más simple *** recomendado *** <a href="https://github.com/jrigottiedu/TT-1C2025-25011-codigo-de-clases/edit/master/semana_8/after_class/pre-entrega_version_pop.py" target='_blank' className='link'>Ver código</a></p>
+          <p className='font-bold pb-2'>Resolución ejercicio clase 8 con IA <a href="https://github.com/jrigottiedu/TT-1C2025-25011-codigo-de-clases/blob/master/semana_9/after_class/ejercicio.py" target='_blank' className='link'>Ver código</a></p>
 
-          <p className='font-semibold'>Menú opción 1: Alta de productos</p>
+          <p className='font-semibold'>Analizamos el resultado</p>
           <ul className='list-disc list-inside'>
-            <li>Declaramos una lista global llamada lista_productos que almacena todos los productos ingresados</li>
-            <li>Para cada producto, el usuario ingresa: nombre, categoria y precio</li>
-            <li>Solo validamos nombre, agregar validación en otros campos</li>
-            <li>Cargamos esos datos en una sublista temporal llamada producto</li>
-            <li>Usamos el método append para insertar la sublista producto, el la lista principal lista_productos</li>
+            <li>En general utilizó las estructuras que conocemos</li>
+            <li>En el caso del precio, utilizo el bloque try/except para validar ingreso y convertir a float</li>
+            <li>Como no se nos pedía convertir el tipo de dato, comentamos el bloque</li>
+            <li>Notamos que el código generado por la IA no validaba el ingreso de los datos</li>
           </ul>
-
-          <p className='font-semibold'>Menú opción 2: Mostrar productos</p>
-          <ul className='list-disc list-inside'>
-            <li>Usamos un bucle for con range para generar los índices y luego iterar lista_productos</li>
-            <li>Almacenamos en una variable temporal producto, cada sublista de lista_productos</li>
-            <li>Usamos un print con los índice relativos para acceder a cada dato del producto</li>
-          </ul>
-
-          <p className='font-semibold'>Menú opción 3: Buscar productos</p>
-          <ul className='list-disc list-inside'>
-            <li>Aún sin acción</li>
-          </ul>
-
-          <p className='font-semibold'>Menú opción 4: Eliminar productos</p>
-          <ul className='list-disc list-inside'>
-            <li>El usuario primero ejecuta la opción 2 para averiguar el índice del producto a eliminar</li>
-            <li>En esta opción, ingresa el índice del producto a eliminar</li>
-            <li>usamos el método pop que recibe como argumento el índice a borrar</li>
-            <li>*** Notamos que pop, al eliminar el producto, los índices se reacomodan, lo que podría generar confución en el usuario</li>
-          </ul>
-
-          <a href="https://github.com/jrigottiedu/TT-1C2025-25011-codigo-de-clases/blob/master/semana_8/after_class/pop.py" target='_blank' className='link'>Ver ejemplos de uso de pop aplicados a lista_productos</a>
-        </div>
-
-
-        <div className='bg-gray-100 p-2 border border-gray-400 rounded-xl mb-10 w-full'>
-          <p className='font-bold pb-2'>Versión 2 - Variante, reemplazamos pop por clear <a href="https://github.com/jrigottiedu/TT-1C2025-25011-codigo-de-clases/blob/master/semana_8/after_class/pre-entrega_version_clear.py" target='_blank' className='link'>Ver código</a></p>
-
-          <p className='font-semibold'>Menú opción 1: Alta de productos</p>
-          <ul className='list-disc list-inside'>
-            <li>Igual que versión 1</li>
-          </ul>
-
-          <p className='font-semibold'>Menú opción 2: Mostrar productos</p>
-          <ul className='list-disc list-inside'>
-            <li>Hay que agregar la validación de la línea 57 para evitar error de índice</li>
-          </ul>
-
-          <p className='font-semibold'>Menú opción 3: Buscar productos</p>
-          <ul className='list-disc list-inside'>
-            <li>Aún sin acción</li>
-          </ul>
-
-          <p className='font-semibold'>Menú opción 4: Eliminar productos</p>
-          <ul className='list-disc list-inside'>
-            <li>Usamos el método clear en lugar de pop</li>
-          </ul>
-          <a href="https://github.com/jrigottiedu/TT-1C2025-25011-codigo-de-clases/blob/master/semana_8/after_class/clear.py" target='_blank' className='link'>Ver ejemplos de uso de clear aplicados a lista_productos</a>
         </div>
 
         <div className='bg-gray-100 p-2 border border-gray-400 rounded-xl mb-10 w-full'>
-          <p className='font-bold pb-2'>Versión 3 - Versión más robusta *** no es necesario para la pre-entrega *** <a href="https://github.com/jrigottiedu/TT-1C2025-25011-codigo-de-clases/blob/master/semana_8/after_class/pre-entrega_version_id.py" target='_blank' className='link'>Ver código</a></p>
+          <p className='font-bold pb-2'>Solicitamos a la IA que agregue validación a los datos ingresados <a href="https://github.com/jrigottiedu/TT-1C2025-25011-codigo-de-clases/blob/master/semana_9/after_class/ejercicio_con_validacion.py" target='_blank' className='link'>Ver código</a></p>
 
-          <p className='font-semibold'>Menú opción 1: Alta de productos</p>
+          <p className='font-semibold'>Analizamos el resultado</p>
           <ul className='list-disc list-inside'>
-            <li>A diferencia de las versiones anteriores, el usuario ingresa: ID, nombre, categoría y precio</li>
+            <li>Si bien agrego la validación del nombre y del precio, cuando ingresamos correctamente el nombre pero no el precio, nos obliga a reingresar el nombre</li>
+            <li>Podríamos seguir interactuando con la IA hasta llegar al código deseado, pero por tiempo no lo hicimos</li>
           </ul>
-
-          <p className='font-semibold'>Menú opción 2: Mostrar productos</p>
-          <ul className='list-disc list-inside'>
-            <li>Usamos un bucle for sin range, ya que no necesitamos el índice, el ID esta en la sublista producto</li>
-          </ul>
-
-          <p className='font-semibold'>Menú opción 3: Buscar productos</p>
-          <ul className='list-disc list-inside'>
-            <li>Aún sin acción</li>
-          </ul>
-
-          <p className='font-semibold'>Menú opción 4: Eliminar productos</p>
-          <ul className='list-disc list-inside'>
-            <li>El usuario primero ejecuta la opción 2 para averiguar el ID del producto a eliminar</li>
-            <li>En esta opción, ingresa el ID del producto a eliminar</li>
-            <li>Usamos un bucle for para iterar la lista_productos y un condicional para validar el producto con ID ingresado</li>
-            <li>Finalmente usamos el método remove para eliminarlo</li>
-          </ul>
-
         </div>
 
-      </section> */}
+        <div className='bg-gray-100 p-2 border border-gray-400 rounded-xl mb-10 w-full'>
+          <p className='font-bold pb-2'>Comparamos lista Vs diccionario <a href="https://github.com/jrigottiedu/TT-1C2025-25011-codigo-de-clases/blob/master/semana_9/after_class/lista_vs_diccionario.py" target='_blank' className='link'>Ver código</a></p>
+
+          <p className='font-semibold'>Analizamos el resultado</p>
+          <ul className='list-disc list-inside'>
+            <li>Creamos una lista y un diccionario con los mismos valores</li>
+            <li>Comprobamos la ventaja de usar diccionarios sobre listas</li>
+            <li>Con los diccionarios, es más fácil acceder a los valores, ya que no dependemos de la posición (índice)</li>
+          </ul>
+        </div>
+
+        <div className='bg-gray-100 p-2 border border-gray-400 rounded-xl mb-10 w-full'>
+          <p className='font-bold pb-2'>Aplicando colores a las impresiones en consola <a href="https://github.com/jrigottiedu/TT-1C2025-25011-codigo-de-clases/blob/master/semana_9/after_class/aplicando_colores_consola.py" target='_blank' className='link'>Ver código</a></p>
+
+          <p className='font-semibold'>Método sugerido por los estudiantes en Clase!!</p>
+          <ul className='list-disc list-inside'>
+            <li>Inspeccionar el código con el modo de uso, es muy sencillo darle color a las salidas!</li>
+            <li>Declarar las constantes al inicio con el código de colores</li>
+            <li>Aplicar el color en el print</li>
+          </ul>
+        </div>
+
+
+
+      </section>
     </div>
   )
 }
