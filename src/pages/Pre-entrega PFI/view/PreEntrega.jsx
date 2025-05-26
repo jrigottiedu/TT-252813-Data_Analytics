@@ -8,19 +8,16 @@ const PreEntrega = () => {
             <div className="mb-4 bg-amber-50 p-2">
                 <div className="text-sm text-gray-600 space-y-2">
                     <div>
-                        <strong>Publicación oficial de la consigna:</strong> Campus Virtual en Clase 8 el lunes 19 de mayo
-                    </div>
-                    <div>
-                        <strong>Fecha de entrega:</strong> Hasta el domingo 25 de mayo a la medianoche <strong>Se ha decidido extender 1 semana más hasta el domingo 1 de junio</strong>
+                        <strong>Fecha de entrega: Hasta el domingo 1 de junio a la medianoche</strong>
                     </div>
                     <div>
                         <strong>Modalidad de entrega:</strong> Archivo .py en un repositorio en la nube (Google Drive)
                     </div>
                     <div>
                         <strong>
-                            Archivo Python con Consigna y Código de estructura:{' '}
+                            Archivo Python con código modelo de Resolución:{' '}
                             <a
-                                href="https://github.com/jrigottiedu/TT-1C2025-25011-codigo-de-clases/blob/master/pre-entrega/consigna_pre_entrega.py"
+                                href="https://github.com/jrigottiedu/TT-1C2025-25011-codigo-de-clases/blob/master/pre-entrega/codigo_modelo_pre_entrega.py"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="link underline text-blue-600 hover:text-blue-800"
