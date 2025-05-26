@@ -14,6 +14,13 @@ const PreEntrega = () => {
                         <strong>Modalidad de entrega:</strong> Archivo .py en un repositorio en la nube (Google Drive)
                     </div>
                     <div>
+                        <strong>Video:</strong> Cómo generar el código, subirlo al Drive y completar la entrega en el campus 
+                        <a href="https://youtu.be/PTvgjX2azDE"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="link underline text-blue-600 hover:text-blue-800 pl-1">Ver aquí</a>
+                    </div>
+                    <div>
                         <strong>
                             Archivo Python con código modelo de Resolución:{' '}
                             <a
