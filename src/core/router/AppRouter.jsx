@@ -1,14 +1,15 @@
 import { createBrowserRouter, createHashRouter } from "react-router-dom";
 import HomeView from "../../pages/home/view/HomeView";
-import Semana1View from "../../pages/semana1/view/Semana1View";    
-import Semana2View from "../../pages/semana2/view/Semana2View";    
-import Semana3View from "../../pages/semana3/view/Semana3View";    
-import Semana4View from "../../pages/semana4/view/Semana4View";    
-import Semana5View from "../../pages/semana5/view/Semana5View";    
-import Semana6View from "../../pages/semana6/view/Semana6View";    
-import Semana7View from "../../pages/semana7/view/Semana7View";    
+import Semana1View from "../../pages/semana1/view/Semana1View";
+import Semana2View from "../../pages/semana2/view/Semana2View";
+import Semana3View from "../../pages/semana3/view/Semana3View";
+import Semana4View from "../../pages/semana4/view/Semana4View";
+import Semana5View from "../../pages/semana5/view/Semana5View";
+import Semana6View from "../../pages/semana6/view/Semana6View";
+import Semana7View from "../../pages/semana7/view/Semana7View";
 import Semana8View from "../../pages/semana8/view/Semana8View";
 import Semana9View from "../../pages/semana9/view/Semana9View";
+import Semana10View from "../../pages/semana10/view/Semana10View";
 
 import Layout from "../layout/Layout";
 import IdesView from "../../pages/ides/view/IdesView";
@@ -100,6 +101,14 @@ export const appRouter = createHashRouter([
     element: (
       <Layout>
         <Semana9View />
+      </Layout>
+    ),
+  },
+  {
+    path: "/semana10",
+    element: (
+      <Layout>
+        <Semana10View />
       </Layout>
     ),
   },
