@@ -10,6 +10,7 @@ import Semana7View from "../../pages/semana7/view/Semana7View";
 import Semana8View from "../../pages/semana8/view/Semana8View";
 import Semana9View from "../../pages/semana9/view/Semana9View";
 import Semana10View from "../../pages/semana10/view/Semana10View";
+import Semana11View from "../../pages/semana11/view/Semana11View";
 
 import Layout from "../layout/Layout";
 import IdesView from "../../pages/ides/view/IdesView";
@@ -109,6 +110,14 @@ export const appRouter = createHashRouter([
     element: (
       <Layout>
         <Semana10View />
+      </Layout>
+    ),
+  },
+  {
+    path: "/semana11",
+    element: (
+      <Layout>
+        <Semana11View />
       </Layout>
     ),
   },
