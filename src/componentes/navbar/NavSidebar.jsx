@@ -12,7 +12,7 @@ const NavSidebar = () => {
       <ul>
         {navItems.map((item) => (
           <li key={item.id}>
-            <NavLink id={item.id} link={item.link} name={item.name}/>
+            <NavLink id={item.id} link={item.link} nuevo={item.nuevo} name={item.name}/>
           </li>
         ))}
       </ul>
