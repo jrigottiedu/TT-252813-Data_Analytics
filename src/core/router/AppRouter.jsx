@@ -11,10 +11,12 @@ import Semana8View from "../../pages/semana8/view/Semana8View";
 import Semana9View from "../../pages/semana9/view/Semana9View";
 import Semana10View from "../../pages/semana10/view/Semana10View";
 import Semana11View from "../../pages/semana11/view/Semana11View";
+import Semana12View from "../../pages/semana12/view/Semana12View";
 
 import Layout from "../layout/Layout";
 import IdesView from "../../pages/ides/view/IdesView";
 import PreEntrega from "../../pages/Pre-entrega PFI/view/PreEntrega";
+import EntregaFinal from "../../pages/Entrega-final PFI/view/EntregaFinal";
 
 export const appRouter = createHashRouter([
   {
@@ -30,6 +32,14 @@ export const appRouter = createHashRouter([
     element: (
       <Layout>
         <PreEntrega />
+      </Layout>
+    ),
+  },
+  {
+    path: "/entregaFinal",
+    element: (
+      <Layout>
+        <EntregaFinal />
       </Layout>
     ),
   },
@@ -118,6 +128,14 @@ export const appRouter = createHashRouter([
     element: (
       <Layout>
         <Semana11View />
+      </Layout>
+    ),
+  },
+  {
+    path: "/semana12",
+    element: (
+      <Layout>
+        <Semana12View />
       </Layout>
     ),
   },

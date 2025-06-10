@@ -40,7 +40,7 @@
 }
 
 .title-EntregaFinal {
-  @apply text-2xl font-semibold text-gray-800 bg-orange-500 rounded-sm p-2 text-center mb-3;
+  @apply text-2xl font-semibold text-gray-800 bg-orange-400 rounded-sm p-2 text-center mb-3;
 }
 
 .title-class {
