@@ -13,6 +13,7 @@ const Semana12Class11 = () => {
           <p className='text-orange-800 font-semibold'>Atención: hoy en clase 11, vimos los contenidos de clase 12 por el feriado del lunes 16</p>
           <p className='pt-2'>En nuestra clase de hoy comenzamos con Base de Datos!</p>
           <ul className='list-disc list-inside'>
+            <li>Les comparto el PPT adaptado para esta clase <a href="https://docs.google.com/presentation/d/12tTP9MhWg4d9Oa5ExPDXvttGE46cdbqU/edit?usp=sharing&ouid=115334316874644775342&rtpof=true&sd=true" target='_blank' className='link'>Descargar aquí</a></li>
             <li>Repasamos listas de listas y listas de diccionario como Intro a Tablas en Bases de datos <a href="https://github.com/jrigottiedu/TT-1C2025-25011-codigo-de-clases/blob/master/semana_12/clase_11/intro_tablas.py" target='_blank' className='link'>Ver código</a></li>
             <li>Representamos las listas y la tabla en una hoja de cálculo <a href="https://docs.google.com/spreadsheets/d/1LpGS4apt6bqL2qu4L9uNJ5pA1xMgJGiivXZqbIl3rjg/edit?usp=sharing" target='_blank' className='link'>Ver en Google Sheet</a></li>
             <li>Mencionamos algunos motores de bases de datos y conversamos sobre las bases Relacionales y No relacionales </li>
