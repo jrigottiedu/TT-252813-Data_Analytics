@@ -1,6 +1,7 @@
 const navItems = [
     { id: 1, name: "Inicio", link: "/" },
-    { id: 51, name: "Pre Entrega", link: "/preEntrega" },
+    { id: 50, name: "Pre Entrega", link: "/preEntrega" },
+    { id: 51, name: "Entrega Final", link: "/entregaFinal" },
     { id: 2, name: "Semana 1", link: "/semana1" },
     { id: 3, name: "Semana 2", link: "/semana2" },
     { id: 4, name: "Semana 3", link: "/semana3" },
@@ -12,6 +13,7 @@ const navItems = [
     { id: 10, name: "Semana 9", link: "/semana9" },
     { id: 11, name: "Semana 10", link: "/semana10" },
     { id: 12, name: "Semana 11", link: "/semana11" },
+    { id: 13, name: "Semana 12", link: "/semana12" },
 
     { id: 50, name: "IDEs", link: "/ides" },
 
