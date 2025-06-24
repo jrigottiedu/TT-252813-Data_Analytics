@@ -42,7 +42,7 @@ const Semana14Class13 = () => {
           <ul className='list-disc list-inside'>
             <li>Resolver el cuestionario de clase 12 en el Campus Virtual</li>
             <li>Resolver el ejercicio que encuentran en el slide 27 del PPT de clase 13 (link arriba) </li>
-            <li>Analizar y preparar en su VSCode este código base para implementar las funciones de BD en clase 14 <a href="https://github.com/jrigottiedu/TT-1C2025-25011-codigo-de-clases/blob/master/entrega-final/2_pfi_estructura_.py" target="_blank" className="link"></a></li>
+            <li>Analizar y preparar en su VSCode este código base para implementar las funciones de BD en clase 14 <a href="https://github.com/jrigottiedu/TT-1C2025-25011-codigo-de-clases/blob/master/entrega-final/2_pfi_estructura_.py" target="_blank" className="link">Ver código</a></li>
             <li>Nos reencontramos el miércoles 25 en el After Class</li>
           </ul>
         </div>
@@ -60,9 +60,8 @@ const Semana14Class13 = () => {
         <div>
           <h2 className='title-h2'>Temas a ver en Clase 14 - lunes 30 de junio</h2>
           <ul className='list-disc list-inside'>
-          <li>Adelantamos algo de la Clase 15</li>
+          <li>Adelantaremos la Ruta de avance para la Entrega del PFI planificada para la Clase 15</li>
             <li>Completaremos las funciones de manejo de BD: búsqueda de producto, actualizar producto y eliminar producto</li>
-            <li>Profundizaremos operaciones CRUD - Parte 1</li>
             <li className="font-semibold">Armaremos un modelo de Entrega final completo!</li>
           </ul>
         </div>
@@ -70,8 +69,8 @@ const Semana14Class13 = () => {
         <div>
           <h2 className='title-h2'>Temas a ver en Clase 15 - lunes 7 de julio</h2>
           <ul className='list-disc list-inside'>
-            <li>Completamos los pendientes de clase 14</li>
-            <li>Profundizaremos operaciones CRUD  - Parte 2</li>
+            <li>Veremos en detalle los temas pendientes de la clase 14</li>
+            <li>Profundizaremos operaciones CRUD</li>
             <li>Analizaremos Inyecciones SQL para temas de seguridad</li>
             <li>Veremos manejo de transacciones y control de errores</li>
             <li>Espacio para dudas sobre la Entrega final</li>
