@@ -8,7 +8,7 @@ const Semana14Afterclass = () => {
         <p className='font-bold pb-2'>Alta de producto integrado con Base de datos!</p>
 
         <a
-          href="https://youtu.be/V3lyBdFFYXM"
+          href="https://www.youtube.com/watch?v=Nepb9FpFUzI"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-2 no-underline text-gray-700 hover:text-red-600 transition-colors duration-200 pb-5"
