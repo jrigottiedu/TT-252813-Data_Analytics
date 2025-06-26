@@ -4,11 +4,11 @@ const Semana14Afterclass = () => {
   return (
     <div>
       <h1 className="title-afterclass">After Class | Miércoles 25 de junio</h1>
-      {/* <section className="home-info-container">
-        <p className='font-bold pb-2'>Repaso: desde funciones 101 hasta Base de datos! + PFI</p>
+      <section className="home-info-container">
+        <p className='font-bold pb-2'>Alta de producto integrado con Base de datos!</p>
 
         <a
-          href="https://youtu.be/V3lyBdFFYXM"
+          href="https://www.youtube.com/watch?v=Nepb9FpFUzI"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-2 no-underline text-gray-700 hover:text-red-600 transition-colors duration-200 pb-5"
@@ -21,15 +21,21 @@ const Semana14Afterclass = () => {
         <div className='bg-gray-100 p-2 border border-gray-400 rounded-xl mb-10 w-full'>
           <p className='font-semibold'>Temas destacados</p>
           <ul className='list-disc list-inside'>
-            <li><span className='font-semibold'>Entrega final PFI:</span> abre el 30 de junio (en principio cierra el 14 de julio)</li>
-            <li>Si bien pueden refactorizar el código de la pre-entrega, para el armado de la entrega final vamos a trabajar sobre este código base <a href="https://github.com/jrigottiedu/TT-1C2025-25011-codigo-de-clases/blob/master/entrega-final/2_pfi_estructura_.py" target="_blank" className='link'>Ver código</a></li>
-            <li>Hicimos un recorrido de los temas vistos durante las últimas tres clases</li>
-            <li>Funciones en todas sus variantes, con y sin argumento, con y sin retorno. Agregamos algo de try-except para manejo de errores <a href="https://github.com/jrigottiedu/TT-1C2025-25011-codigo-de-clases/blob/master/semana_13/after_class/repaso_funciones.py" target='_blank' className='link'>Ver código</a> </li>
-            <li>También repasamos los conceptos de Base de datos, tablas, campos y registros. Mencionamos los tipos de datos y atributos y por último exploramos la última tabla "productos" que creamos en el DB Browser.</li>
+            <li>Respondimos el cuestionario de clase 12: viene con preguntas muy interesantes de módulos, bloques try-except y manejo de archivos</li>
+            <li>Aunque las respuestas puedan no aparecer en el mismo orden, ver código de soporte <a href="https://github.com/jrigottiedu/TT-1C2025-25011-codigo-de-clases/blob/master/semana_14/after_class/cuestionario_6.py" target="_blank" className='link'>Ver en Github</a></li>
+            <li>Resolvimos el ejercicio de la clase 13, que consiste el integrar el alta de productos con Sqlite</li>
+            <li>Reutilizamos las funciones db_crear_tabla_producto(), db_insertar_producto(), db_leer_productos()</li>
+            <li>Exploramos que sucede si insertamos registros con campos vacios o datos no unicos</li>
+            <li><a href="https://github.com/jrigottiedu/TT-1C2025-25011-codigo-de-clases/blob/master/semana_14/after_class/ejercicio.py" target='_blank' className='link'>Ver código en Github</a></li>
+            <li>Recuerden que siempre es buena práctica armar diagramas de flujo y/o pseudocódigo antes de comenzar a programar</li>
+            <li>Aunque no llegamos con el tiempo, también se sugiere armar gráficos de entidad/relación previo a armar la estructura de la base de datos</li>
+            <li>Podemos usar estas plataformas web:</li>
+            <li className='pl-2'><a href="https://draw.io/" target='_blank' className='link'>Draw.io</a></li>
+            <li className='pl-2'><a href="https://www.lucidchart.com/" target='_blank' className='link'>Lucidchart</a></li>
           </ul>
         </div>
 
-      </section> */}
+      </section>
     </div>
   )
 }
