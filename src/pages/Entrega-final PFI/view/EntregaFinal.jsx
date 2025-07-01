@@ -8,10 +8,13 @@ const EntregaFinal = () => {
             <div className="mb-4 bg-amber-50 p-2">
                 <div className="text-sm text-gray-600 space-y-2">
                     <div>
-                        <strong>Fecha de entrega: en principio hasta el lunes 14 de julio (vemos si podemos extenderlo unos días más)</strong>
+                        <strong>Fecha de entrega: En lo posible antes del lunes 14 de julio (fecha máxima Domingo 20 de julio )</strong>
                     </div>
                     <div>
                         <strong>Modalidad de entrega:</strong> Archivo .py en un repositorio en la nube (Google Drive)
+                    </div>
+                    <div>
+                        <strong>Carpeta con archivos modelo:</strong> <a href="https://github.com/jrigottiedu/TT-1C2025-25011-codigo-de-clases/tree/master/entrega-final" target='_blank' className='link'>Ver en Github</a>
                     </div>
                     {/* <div>
                         <strong>Video:</strong> Cómo generar el código, subirlo al Drive y completar la entrega en el campus 
