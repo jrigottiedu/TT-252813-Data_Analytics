@@ -22,7 +22,7 @@ const Semana15Class14 = () => {
           </ul>
           <p className='pt-5 font-semibold'>Luego trabajamos con la entrega final</p>
           <ul className='list-disc list-inside'>
-            <li>Ver PPT a partir del Slide 25 "Entrega de Proyecto" con la consigna <a href="https://docs.google.com/presentation/d/1Nv7EBmhtGzUecTDci3sYHObt8epqdQA0/edit?slide=id.p1#slide=id.p1" target='_blank' className='link'></a></li>
+            <li>Ver PPT a partir del Slide 25 "Entrega de Proyecto" con la consigna <a href="https://docs.google.com/presentation/d/1Nv7EBmhtGzUecTDci3sYHObt8epqdQA0/edit?usp=sharing&ouid=115334316874644775342&rtpof=true&sd=true" target='_blank' className='link'>Ver PPT</a></li>
             <li>Comenzamos a desarrollar el código en el archivo principal <a href="https://github.com/jrigottiedu/TT-1C2025-25011-codigo-de-clases/blob/master/entrega-final/2_pfi_estructura_.py" target='_blank' className='link'>Ver código Estructura PFI</a></li>
             <li>Copiamos, pegamos y adaptamos las funciones vistas en las últimas dos clases (crear tabla productos, insertar producto y eliminar producto) <a href="https://github.com/jrigottiedu/TT-1C2025-25011-codigo-de-clases/blob/master/entrega-final/bd_metodos.py" target='_blank' className='link'>Ver código métodos bd</a></li>
           </ul>
