@@ -14,6 +14,7 @@ import Semana11View from "../../pages/semana11/view/Semana11View";
 import Semana12View from "../../pages/semana12/view/Semana12View";
 import Semana13View from "../../pages/semana13/view/Semana13View"; 
 import Semana14View from "../../pages/semana14/view/Semana14View"; 
+import Semana15View from "../../pages/semana15/view/Semana15View"; 
 
 import Layout from "../layout/Layout";
 import IdesView from "../../pages/ides/view/IdesView";
@@ -154,6 +155,14 @@ export const appRouter = createHashRouter([
     element: (
       <Layout>
         <Semana14View />
+      </Layout>
+    ),
+  },
+  {
+    path: "/semana15",
+    element: (
+      <Layout>
+        <Semana15View />
       </Layout>
     ),
   },
