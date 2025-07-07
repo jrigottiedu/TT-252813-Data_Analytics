@@ -265,14 +265,14 @@ def bd_actualizar_precio(id, precio):
 
 
       {/******************  ACTUALIZAR UN REGISTRO DE LA TABLA PRODUCTOS SEGUN EL ID INDICADO ***************************/}
-      <h2 className="font-semibold text-xl pt-10 pb-2">Función / Método para actualizar todos los campos de un registro según el id</h2>
+      <h2 className="font-semibold text-xl pt-10 pb-2">Función / Método para actualizar todos los campos de un registro según el id - FORMA NOMBRADA</h2>
       <ul class="list-disc pl-6">
         <li>Esta función tiene por parámetro el id del registro y los valores de los campos</li>
         <li>Declara e inicializa en False una variable llamada status para retornar el resultado de la función</li>
         <li>Establece una conexión a la base "inventario.bd" usando la ruta definida en el paso anterior</li>
         <li>Prepara el cursor para ejecutar la consulta/query SQL</li>
         <li>Carga en la variable <code>sql</code> el texto con la consulta a ejecutar</li>
-        <li>Ejecuta la consulta con la tupla que contiene los pares clave:valor de todos los campos</li>
+        <li>Ejecuta la consulta con el diccionario que contiene los pares clave:valor de todos los campos</li>
         <li>Obtiene del cursor la cantidad de filas afectadas. Si es mayor a 0, actualiza la variable status</li>
         <li>Cierra la conexión</li>
         <li>Retorna el status para informar</li>
@@ -301,6 +301,55 @@ def bd_actualizar_producto(id, nombre, categoria, precio):
                 "precio": precio,
             },
         )
+        # confirmamos el cambio
+        conexion.commit()
+        # validamos que se haya actualizado el registro y actualizamos el estado para informar
+        if cursor.rowcount > 0:
+            status = True
+    except Exception as error:
+        print(
+            f"Error encontrado al crear la tabla: {error}"
+        )  # muestramos en pantalla si hubo error
+    finally:
+        # cerramos la conexión
+        conexion.close()
+        # retornamos el estado de la operación
+        return status
+`}
+        language="Python"
+      ></DisplayCode>
+
+
+
+      {/******************  ACTUALIZAR UN REGISTRO DE LA TABLA PRODUCTOS SEGUN EL ID INDICADO ***************************/}
+      <h2 className="font-semibold text-xl pt-10 pb-2">Función / Método para actualizar todos los campos de un registro según el id - FORMA POR POSICION</h2>
+      <ul class="list-disc pl-6">
+        <li>Esta función tiene por parámetro el id del registro y los valores de los campos</li>
+        <li>Declara e inicializa en False una variable llamada status para retornar el resultado de la función</li>
+        <li>Establece una conexión a la base "inventario.bd" usando la ruta definida en el paso anterior</li>
+        <li>Prepara el cursor para ejecutar la consulta/query SQL</li>
+        <li>Carga en la variable <code>sql</code> el texto con la consulta a ejecutar</li>
+        <li>Ejecuta la consulta con la tupla que contiene los datos todos los campos ***respetar la posición***</li>
+        <li>Obtiene del cursor la cantidad de filas afectadas. Si es mayor a 0, actualiza la variable status</li>
+        <li>Cierra la conexión</li>
+        <li>Retorna el status para informar</li>
+        <li>Es buena práctica envolver el código con <code>try-except-finally</code> para el manejo de errores/excepciones.</li>
+      </ul>
+
+      <DisplayCode
+        code={`
+# Funcion para modificar todos los campos de registro de la tabla productos según el id
+def bd_actualizar_producto(id, nombre, categoria, precio):
+    status = False
+    try:
+        # establecemos la conexión a la base inventario.db con ruta relativa
+        conexion = sqlite3.connect(bd_ruta)
+        # creamos el cursor para ejecutar la consulta
+        cursor = conexion.cursor()
+        # preparamos la consulta SQL
+        sql = """UPDATE productos SET nombre = ?, categoria = ?, precio = ? WHERE id = ?"""  #
+        # ejecutamos la consulta con los parámetros id y precio de forma nombrada
+        cursor.execute(sql,(nombre,categoria,precio,id))
         # confirmamos el cambio
         conexion.commit()
         # validamos que se haya actualizado el registro y actualizamos el estado para informar
