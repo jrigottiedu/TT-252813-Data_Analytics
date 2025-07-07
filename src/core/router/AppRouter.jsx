@@ -20,6 +20,7 @@ import Layout from "../layout/Layout";
 import IdesView from "../../pages/ides/view/IdesView";
 import PreEntrega from "../../pages/Pre-entrega PFI/view/PreEntrega";
 import EntregaFinal from "../../pages/Entrega-final PFI/view/EntregaFinal";
+import SqlView from "../../pages/sql/view/SqlView";
 
 export const appRouter = createHashRouter([
   {
@@ -171,6 +172,14 @@ export const appRouter = createHashRouter([
     element: (
       <Layout>
         <IdesView />
+      </Layout>
+    ),
+  },
+  {
+    path: "/sql",
+    element: (
+      <Layout>
+        <SqlView />
       </Layout>
     ),
   },
