@@ -8,7 +8,7 @@ const EntregaFinal = () => {
             <div className="mb-4 bg-amber-50 p-2">
                 <div className="text-sm text-gray-600 space-y-2">
                     <div>
-                        <strong>Fecha de entrega: En lo posible antes del lunes 14 de julio (fecha máxima Domingo 20 de julio )</strong>
+                        <strong>Fecha de entrega: En lo posible antes del Domingo 20 de julio - Por el taller del miércoles 16 se extiende el plazo unos días</strong>
                     </div>
                     <div>
                         <strong>Modalidad de entrega:</strong> Archivo .py en un repositorio en la nube (Google Drive)
