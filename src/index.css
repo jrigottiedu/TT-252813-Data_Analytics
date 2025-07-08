@@ -51,8 +51,16 @@
   @apply text-2xl font-semibold text-gray-800 bg-teal-500 rounded-sm p-2 text-center mb-3
 }
 
+.link_li {
+  @apply cursor-pointer text-blue-600 font-medium transition-all duration-300;
+}
+
+.link_li:hover {
+  @apply text-blue-800 underline;
+}
+
 .link {
-  @apply text-blue-500 underline font-medium transition-all duration-300;
+  @apply cursor-pointer text-blue-500 underline font-medium transition-all duration-300;
 }
 
 .link:hover {

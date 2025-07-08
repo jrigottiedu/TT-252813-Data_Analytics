@@ -1,15 +1,51 @@
-import React from "react";
+import React, { useRef } from "react";
 import DisplayCode from "../../../componentes/code/DisplayCode";
 
 const SqlView = () => {
+
+  const librerias = useRef(null);
+  const rutaRelativa = useRef(null);
+  const crearTabla = useRef(null);
+  const insertarRegistro = useRef(null);
+  const leerTodo = useRef(null);
+  const leerPorNombre = useRef(null);
+  const actualizarPrecio = useRef(null);
+  const actualizarTodoNombrado = useRef(null);
+  const actualizarTodoPosicional = useRef(null);
+  const eliminarPorId = useRef(null);
+  const buscarPorId = useRef(null);
+  const buscarBajoStock = useRef(null);
+
+
+  const scrollTo = (ref) => {
+    ref.current?.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <div>
       <h1 className="title-class">SQL Code Snippets</h1>
 
+      <div className="bg-gray-100 p-4 rounded-lg shadow-md w-full md:w-1/3 mb-6">
+        <h2 className="text-lg font-semibold mb-2">Índice</h2>
+        <ul className="list-disc list-inside space-y-1">
+          <li className="link_li" onClick={() => scrollTo(librerias)}>Código para importar librerías necesarias</li>
+          <li className="link_li" onClick={() => scrollTo(rutaRelativa)}>Construir la ruta relativa</li>
+          <li className="link_li" onClick={() => scrollTo(crearTabla)}>Crear tabla productos</li>
+          <li className="link_li" onClick={() => scrollTo(insertarRegistro)}>Insertar un registro</li>
+          <li className="link_li" onClick={() => scrollTo(leerTodo)}>Leer todos los registros</li>
+          <li className="link_li" onClick={() => scrollTo(leerPorNombre)}>Buscar productos por nombre</li>
+          <li className="link_li" onClick={() => scrollTo(actualizarPrecio)}>Actualizar precio por ID</li>
+          <li className="link_li" onClick={() => scrollTo(actualizarTodoNombrado)}>Actualizar todos los campos (forma nombrada)</li>
+          <li className="link_li" onClick={() => scrollTo(actualizarTodoPosicional)}>Actualizar todos los campos (forma posicional)</li>
+          <li className="link_li" onClick={() => scrollTo(eliminarPorId)}>Eliminar registro por ID</li>
+          <li className="link_li" onClick={() => scrollTo(buscarPorId)}>Buscar producto por ID</li>
+          <li className="link_li" onClick={() => scrollTo(buscarBajoStock)}>Buscar productos con bajo stock</li>
+        </ul>
 
+      </div>
 
       {/******************  IMPORTAR LIBRERIAS ***************************/}
-      <h2 className="font-semibold text-xl pt-10 pb-2">Código para importar librerias necesarias</h2>
+      <h2 ref={librerias} className="font-semibold text-xl pt-10 pb-2">Código para importar librerias necesarias</h2>
       <ul class="list-disc pl-6">
         <li>Importamos <code>sqlite3</code> que nos provee los métodos para trabajar con la base de datos</li>
         <li>Además importamos <code>os</code> para crear la ruta relativa</li>
@@ -26,7 +62,7 @@ import os
       ></DisplayCode>
 
       {/******************  CONSTRUIR RUTA RELATIVA ***************************/}
-      <h2 className="font-semibold text-xl pt-10 pb-2">Construir la ruta relativa</h2>
+      <h2 ref={rutaRelativa} className="font-semibold text-xl pt-10 pb-2">Construir la ruta relativa</h2>
       <ul class="list-disc pl-6">
         <li>Usamos el método path del módulo <code>os</code> para obtener la ruta donde se encuentra el archivo Python que estamos ejecutando</li>
         <li>Luego armamos la ruta relativa con el nombre de nuestra base de datos a crear o acceder</li>
@@ -46,7 +82,7 @@ bd_ruta = os.path.join(BASE_DIR, "inventario.db")
 
 
       {/******************  CONSTRUIR TABLA PRODUCTOS ***************************/}
-      <h2 className="font-semibold text-xl pt-10 pb-2">Función / Método para crear la tabla productos</h2>
+      <h2 ref={crearTabla} className="font-semibold text-xl pt-10 pb-2">Función / Método para crear la tabla productos</h2>
       <ul class="list-disc pl-6">
         <li>Esta función establece una conexión a la base "inventario.bd" usando la ruta definida en el paso anterior</li>
         <li>Prepara el cursor para ejecutar la consulta/query SQL</li>
@@ -90,7 +126,7 @@ def bd_crear_tabla_productos():
 
 
       {/******************  INSERTAR UN REGISTRO EN LA TABLA PRODUCTOS ***************************/}
-      <h2 className="font-semibold text-xl pt-10 pb-2">Función / Método para insertar un registro en la tabla productos</h2>
+      <h2 ref={insertarRegistro} className="font-semibold text-xl pt-10 pb-2">Función / Método para insertar un registro en la tabla productos</h2>
       <ul class="list-disc pl-6">
         <li>Esta función tiene por parámetros los valores de los campos del registro a insertar</li>
         <li>Establece una conexión a la base "inventario.bd" usando la ruta definida en el paso anterior</li>
@@ -136,7 +172,7 @@ def bd_insertar_producto(nombre, categoria, precio):
       ></DisplayCode>
 
       {/******************  LEER TODOS LOS REGISTROS DE LA TABLA PRODUCTOS ***************************/}
-      <h2 className="font-semibold text-xl pt-10 pb-2">Función / Método para leer todos los registros de la tabla productos</h2>
+      <h2 ref={leerTodo} className="font-semibold text-xl pt-10 pb-2">Función / Método para leer todos los registros de la tabla productos</h2>
       <ul class="list-disc pl-6">
         <li>Esta función establece una conexión a la base "inventario.bd" usando la ruta definida en el paso anterior</li>
         <li>Prepara el cursor para ejecutar la consulta/query SQL</li>
@@ -175,7 +211,7 @@ def bd_leer_productos():
       ></DisplayCode>
 
       {/******************  LEER TODOS LOS REGISTROS DE LA TABLA PRODUCTOS CUYO VALOR EN EL CAMPO NOMBRE CONTENGA EL VALOR BUSCADO ***************************/}
-      <h2 className="font-semibold text-xl pt-10 pb-2">Función / Método para leer todos los registro de la tabla productos según el nombre</h2>
+      <h2 ref={leerPorNombre} className="font-semibold text-xl pt-10 pb-2">Función / Método para leer todos los registro de la tabla productos según el nombre</h2>
       <ul class="list-disc pl-6">
         <li>Esta función tiene por parámetro el nombre del producto a buscar en la tabla</li>
         <li>Establece una conexión a la base "inventario.bd" usando la ruta definida en el paso anterior</li>
@@ -216,7 +252,7 @@ def bd_leer_producto_por_nombre(nombre):
 
 
       {/******************  ACTUALIZAR EL CAMPO PRECIO DE UN REGISTRO DE LA TABLA PRODUCTOS SEGUN EL ID INDICADO ***************************/}
-      <h2 className="font-semibold text-xl pt-10 pb-2">Función / Método para actualizar el precio de un registro según el id</h2>
+      <h2 ref={actualizarPrecio} className="font-semibold text-xl pt-10 pb-2">Función / Método para actualizar el precio de un registro según el id</h2>
       <ul class="list-disc pl-6">
         <li>Esta función tiene por parámetro el id del registro y el precio a modificar</li>
         <li>Declara e inicializa en False una variable llamada status para retornar el resultado de la función</li>
@@ -265,7 +301,7 @@ def bd_actualizar_precio(id, precio):
 
 
       {/******************  ACTUALIZAR UN REGISTRO DE LA TABLA PRODUCTOS SEGUN EL ID INDICADO ***************************/}
-      <h2 className="font-semibold text-xl pt-10 pb-2">Función / Método para actualizar todos los campos de un registro según el id - FORMA NOMBRADA</h2>
+      <h2 ref={actualizarTodoNombrado} className="font-semibold text-xl pt-10 pb-2">Función / Método para actualizar todos los campos de un registro según el id - FORMA NOMBRADA</h2>
       <ul class="list-disc pl-6">
         <li>Esta función tiene por parámetro el id del registro y los valores de los campos</li>
         <li>Declara e inicializa en False una variable llamada status para retornar el resultado de la función</li>
@@ -322,7 +358,7 @@ def bd_actualizar_producto(id, nombre, categoria, precio):
 
 
       {/******************  ACTUALIZAR UN REGISTRO DE LA TABLA PRODUCTOS SEGUN EL ID INDICADO ***************************/}
-      <h2 className="font-semibold text-xl pt-10 pb-2">Función / Método para actualizar todos los campos de un registro según el id - FORMA POR POSICION</h2>
+      <h2 ref={actualizarTodoPosicional} className="font-semibold text-xl pt-10 pb-2">Función / Método para actualizar todos los campos de un registro según el id - FORMA POR POSICION</h2>
       <ul class="list-disc pl-6">
         <li>Esta función tiene por parámetro el id del registro y los valores de los campos</li>
         <li>Declara e inicializa en False una variable llamada status para retornar el resultado de la función</li>
@@ -371,7 +407,7 @@ def bd_actualizar_producto(id, nombre, categoria, precio):
 
 
       {/******************  ELIMINAR UN REGISTRO DE LA TABLA PRODUCTOS SEGUN EL ID INDICADO ***************************/}
-      <h2 className="font-semibold text-xl pt-10 pb-2">Función / Método para eliminar un registro de la tabla productos según el id</h2>
+      <h2 ref={eliminarPorId} className="font-semibold text-xl pt-10 pb-2">Función / Método para eliminar un registro de la tabla productos según el id</h2>
       <ul class="list-disc pl-6">
         <li>Esta función tiene por parámetro el id del registro a eliminar</li>
         <li>Declara e inicializa en False una variable llamada status para retornar el resultado de la función</li>
@@ -420,7 +456,7 @@ def bd_eliminar_producto(id):
 
 
       {/******************  BUSCAR UN REGISTRO DE LA TABLA PRODUCTOS SEGUN EL ID INDICADO ***************************/}
-      <h2 className="font-semibold text-xl pt-10 pb-2">Función / Método para buscar un registro de la tabla productos según el id</h2>
+      <h2 ref={buscarPorId} className="font-semibold text-xl pt-10 pb-2">Función / Método para buscar un registro de la tabla productos según el id</h2>
       <ul class="list-disc pl-6">
         <li>Esta función tiene por parámetro el id del registro a buscar</li>
         <li>Declara e inicializa en False una variable llamada prodcuto para retornar el resultado de la búsqueda</li>
@@ -466,7 +502,7 @@ def bd_leer_producto_por_id(id):
 
 
       {/******************  BUSCAR TODOS LOS REGISTRO DE LA TABLA PRODUCTOS CON BAJO STOCK ***************************/}
-      <h2 className="font-semibold text-xl pt-10 pb-2">Función / Método para buscar todos registro de la tabla productos con bajo stock</h2>
+      <h2 ref={buscarBajoStock} className="font-semibold text-xl pt-10 pb-2">Función / Método para buscar todos registro de la tabla productos con bajo stock</h2>
       <ul class="list-disc pl-6">
         <li>Esta función tiene por parámetro el umbral de stock a buscar</li>
         <li>Declara e inicializa una lista llamada lista_productos para retornar el resultado de la búsqueda</li>
