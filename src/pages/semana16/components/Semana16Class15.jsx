@@ -3,7 +3,7 @@ import React from 'react'
 const Semana16Class15 = () => {
   return (
     <div>
-      <h1 className="title-class">Clase 16 | Lunes 7 de julio</h1>
+      <h1 className="title-class">Clase 15 | Lunes 7 de julio</h1>
 
       <section className="home-info-container">
 
@@ -14,7 +14,7 @@ const Semana16Class15 = () => {
           <ul className='list-disc list-inside'>
             <li>Archivo <span className='font-semibold'>pfi_estructura_basica </span><a href="https://github.com/jrigottiedu/TT-1C2025-25011-codigo-de-clases/blob/master/entrega-final/pfi_estructura_basica.py" target="_blank" className='link'>Ver en Github</a></li>
             <li className="pl-5">El archivo pfi_estructura fue renombrado a pfi_estructura_basica</li>
-            <li className="pl-5">Aqui encuentran todas las funcionalidades del CRUD que desarrollamos en clase - solo agregué algunos comentarios y complete las funciones de ingreso y validación de datos</li>
+            <li className="pl-5">Aquí encuentran todas las funcionalidades del CRUD que desarrollamos en clase - sólo agregué algunos comentarios y completé las funciones de ingreso y validación de datos</li>
 
             <li>Archivo <span className='font-semibold'>pfi_estructura_avanzada </span><a href="https://github.com/jrigottiedu/TT-1C2025-25011-codigo-de-clases/blob/master/entrega-final/pfi_estructura_avanzada.py" target="_blank" className='link'>Ver en Github</a></li>
             <li className="pl-5">Actualicé la rutina de actualizar productos que permite editar todos los campos del producto</li>
@@ -69,20 +69,18 @@ const Semana16Class15 = () => {
         {/* Temas Clase 16 */}
         <div>
           <h2 className='title-h2'>Temas a ver en Clase 16 - lunes 14 de julio</h2>
-          <ul className='list-disc list-inside'>
-            <li></li>
-            <li>Vamos a preparar un taller de Git-Github para versionado del código y trabajo colaborativo - 1 hora</li>
-            <li>Espacio para dudas sobre la Entrega final</li>
-          </ul>
-        </div>
-        {/* Taller Miercoles 16 */}
-        <div>
-          <h2 className='title-h2'>Taller PFI - Miércoles 16 de julio</h2>
-          <ul className='list-disc list-inside'>
+          <ul>
             <li>Vamos a Refactorizar el código modelo de la pre-entrega <a href="https://github.com/jrigottiedu/TT-1C2025-25011-codigo-de-clases/blob/master/pre-entrega/codigo_modelo_pre_entrega.py" target='_blank' className='link'>Ver en Github</a></li>
             <li>Para llegar a esta versión con funciones <a href="https://github.com/jrigottiedu/TT-1C2025-25011-codigo-de-clases/blob/master/pre-entrega/1_codigo_modelo_con_funciones.py" target='_blank' className='link'>Ver en Github</a></li>
             <li>Y finalmente ajustar las funciones con lo visto hasta ahora para integrar con la Base de Datos</li>
-            <li>Vamos a tratar de ver Git para control de versionado - eventualmente podemos ver de agregar una clase de 1 hora el lunes 21 de julio</li>
+          </ul>
+        </div>
+
+        {/* Temas Clase 17 */}
+        <div>
+          <h2 className='title-h2'>Posible clase extra - lunes 21 de julio</h2>
+          <ul>
+            <li>Vamos a tratar de ver Git-Github para control de versionado</li>
           </ul>
         </div>
 
