@@ -17,10 +17,11 @@ const navItems = [
     { id: 14, name: "Semana 13", nuevo: false, link: "/semana13" },
     { id: 15, name: "Semana 14", nuevo: false, link: "/semana14" },
     { id: 16, name: "Semana 15", nuevo: false, link: "/semana15" },
-    { id: 17, name: "Semana 16", nuevo: true, link: "/semana16" },
+    { id: 17, name: "Semana 16", nuevo: false, link: "/semana16" },
+    { id: 18, name: "Semana 17", nuevo: true, link: "/semana17" },
 
     // { id: 51, name: "IDEs", nuevo: false, link: "/ides" },
-    { id: 52, name: "SQL", nuevo: true, link: "/sql" },
+    { id: 52, name: "SQL", nuevo: false, link: "/sql" },
 
 ]
 
