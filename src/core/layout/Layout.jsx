@@ -16,7 +16,7 @@ const Layout = ({ children }) => {
             src="/images/logoBAAzulOscuro.webp"
             alt="Talento Tech"
           />
-          <h1 className="text-sm px-5 laptop1:text-xl">Inciación a la Programación | PYTHON</h1>
+          <h1 className="text-sm px-5 laptop1:text-xl">TT252813 - Data Analytics con Python</h1>
         </div>
       </header>
 

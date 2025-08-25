@@ -6,9 +6,9 @@ const HomeDupla = () => {
       <h2 className="title-h2">Dupla Docente</h2>
       <div className="flex flex-col items-start w-full">
         <p className="mt-2">
-          <strong>Tutora:</strong> Catalina Nocera - {" "}
+          <strong>Tutora:</strong> Maximiliano Torres - {" "}
           <a href="mailto:maria.nocera@bue.edu.ar " className="text-blue-500 underline">
-            [maria.nocera@bue.edu.ar ]
+            [maximiliano.torres@bue.edu.ar ]
           </a>
         </p>
         <p>
