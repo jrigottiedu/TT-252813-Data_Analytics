@@ -1,11 +1,15 @@
-import React from 'react'
+import Semana1Clase1 from "../components/Semana1Clase1";
+import Semana1Afterclass from "../components/Semana1Afterclass";
 
 const Semana1View = () => {
   return (
     <div>
-      <h1 className="title-class">Feriado | 24 de marzo de 2025</h1>
+      {/* Class */}
+      <Semana1Clase1 />
+      {/* After Class */}
+      <Semana1Afterclass />
     </div>
-  )
-}
+  );
+};
 
-export default Semana1View
+export default Semana1View;
