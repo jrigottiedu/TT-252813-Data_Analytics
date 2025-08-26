@@ -30,7 +30,7 @@ const Semana1Clase1 = () => {
                     <h2 className='title-h3 pt-5'>Github</h2>
                     <ul className='list-disc list-inside'>
                         <li>Repositorio Oficial de Github <a href="https://github.com/jrigottiedu/TT-2C2025-Data-Analitycs-Notebooks" target='_blank' className='link'>Acceder</a></li>
-                        <li>Previamente haber iniciado sesión en su cuenta personal de Github; hacer click en "Fork", crea una que luego pueden sincronizar</li>
+                        <li>Previamente haber iniciado sesión en su cuenta personal de Github; hacer click en "Fork", crea una copia que luego pueden sincronizar</li>
                         <li>Acceder a Google Colab, Abrir Cuaderno, seleccionar Github (puede pedir iniciar sesión) y autorizar acceso</li>
                         <li>Si les pide "Escribe una URL de Githu..." ahi pegan la URL del "Repositorio Oficial de Github" 'https://github.com/jrigottiedu/TT-2C2025-Data-Analitycs-Notebooks' </li>
                         <li>Seleccionan el repositorio que "forkearon", en rama dejan Main, y seleccionan el archivo</li>
@@ -73,9 +73,6 @@ const Semana1Clase1 = () => {
                         <li>Listas, tuplas, diccionarios y conjuntos</li>
                         <li>Funciones Lambda</li>
                         <li>Comprehensions (list y dict)</li>
-                        <li>Funciones print() e input()</li>
-                        <li>Conversión entre tipos de datos simples</li>
-                        <li>Programas con entrada, procesamiento y salida de datos</li>
                     </ul>
                 </div>
 
