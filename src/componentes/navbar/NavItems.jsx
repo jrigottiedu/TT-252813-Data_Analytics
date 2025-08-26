@@ -2,7 +2,7 @@ const navItems = [
     { id: 1, name: "Inicio", nuevo: false, link: "/" },
     // { id: 50, name: "Pre Entrega", nuevo: false, link: "/preEntrega" },
     // { id: 51, name: "Entrega Final", nuevo: true, link: "/entregaFinal" },
-    { id: 2, name: "Semana 1", nuevo: false, link: "/semana1" },
+    { id: 2, name: "Semana 1", nuevo: true, link: "/semana1" },
     // { id: 3, name: "Semana 2", nuevo: false, link: "/semana2" },
     // { id: 4, name: "Semana 3", nuevo: false, link: "/semana3" },
     // { id: 5, name: "Semana 4", nuevo: false, link: "/semana4" },
