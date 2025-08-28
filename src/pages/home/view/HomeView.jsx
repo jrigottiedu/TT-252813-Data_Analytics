@@ -7,6 +7,7 @@ import HomeDiscord from "../components/HomeDiscord";
 import HomePautasConvivencia from "../components/HomePautasConvivencia";
 import HomeEvaluacion from "../components/HomeEvaluacion";
 import HomePFI from "../components/HomePFI";
+import HomeRepoOficial from "../components/HomeRepoOficial";
 
 
 const HomeView = () => {
@@ -15,6 +16,7 @@ const HomeView = () => {
       <HomeDupla />
       <HomeClass />
       <HomeAfterClass />
+      <HomeRepoOficial />
       <HomeAulaVirtual />
       <HomeDiscord />
       <HomePautasConvivencia />

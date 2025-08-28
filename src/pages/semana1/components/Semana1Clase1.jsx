@@ -45,11 +45,12 @@ const Semana1Clase1 = () => {
                 <div>
                     <h2 className='title-h2'>Grabación de Clase 1</h2>
                     <a
-                        className='link'
+                        className="flex items-center gap-2 no-underline text-gray-700 hover:text-darkblue-600 transition-colors duration-200 pb-5"
                         href='https://www.youtube.com/watch?v=v3NG3XbqbIE'
                         alt="Video semana 1 clase 1"
                         target="_blank">
-                        Ver aquí en Youtube
+                        <span className="material-icons text-darkblue-600 group-hover:text-darkblue-700">ondemand_video</span>
+                        <span>Ver en Youtube</span>
                     </a>
                 </div>
 
