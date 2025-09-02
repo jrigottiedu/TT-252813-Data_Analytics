@@ -3,7 +3,7 @@ import React from 'react'
 const Semana2Clase1 = () => {
     return (
         <div>
-            <h1 className="title-class">Clase 1 | Lunes 31 de marzo</h1>
+            <h1 className="title-class">Clase 2 | Lunes 1 de septiembre</h1>
 
             <section className="home-info-container">
 
@@ -12,69 +12,59 @@ const Semana2Clase1 = () => {
                     <h2 className='title-h2'>Resumen de clase</h2>
                     <p className='pt-2'>En nuestra clase de hoy vimos:</p>
                     <ul className='list-disc list-inside'>
-                        <li>Introducción al curso, objetivos y metodologías de evaluación</li>
-                        <li>Duración: 16 semanas, finalizando la semana del 14 de julio</li>
-                        <li>Instalación del Interprete de Python</li>
-                        <li>Instalación del ambiente de desarrollo (IDE) Visual Studio Code</li>
+                        <li>Repaso de estructuras de datos: <span className='font-semibold'>listas, tuplas, diccionarios y conjuntos</span>, cada uno con sus métodos - <a href="https://github.com/jrigottiedu/TT-2C2025-Data-Analitycs-Notebooks/blob/main/Clase_2/Clase_2_Teoria_Estructuras_de_datos.ipynb" target='_blank' className='link'>Ver Notebook</a></li>
+
+                        <li>Funciones <span className='font-semibold'>lambda</span>, sintáxis y usos <a href="https://github.com/jrigottiedu/TT-2C2025-Data-Analitycs-Notebooks/blob/main/Clase_2/Clase_2_Teoria_Lambda%2C%20Map%2C%20Filter%2C%20Reduce.ipynb" target='_blank' className='link'>Ver Notebook</a></li>
+                        <li className='ps-3'>Lambda como argumento en función sorted</li>
+                        <li className='ps-3'>Lambda con <span className='font-semibold'>map, filter y reduce</span></li>
+
+                        <li>List & Dict comprehension <a href="https://github.com/jrigottiedu/TT-2C2025-Data-Analitycs-Notebooks/blob/main/Clase_2/Clase_2_Teoria_List%20%26%20Dic%20Comprehension.ipynb" target='_blank' className='link'>Ver Notebook</a></li>
+                        <li className='ps-3'><span className='font-semibold'>Listas por comprensión:</span> generamos listas a partir de un for in dentro de la estructura de la lista (equivalente a map)</li>
+                        <li className='ps-3'>Si combinamos con condicionales, es equivalente a filter</li>
+                        <li className='ps-3'><span className='font-semibold'>Diccionarios por comprensión:</span> (lo vemos con más detalles en la práctica)</li>
                     </ul>
                 </div>
 
-                {/* Grabación de Clase en Youtube */}
                 <div>
-                    <h2 className='title-h2'>Grabación de la clase</h2>
+                    <h2 className='title-h2'>Grabación de Clase 1</h2>
                     <a
-                        className='link'
-                        href='https://www.youtube.com/watch?v=jMx1HwlAi-Y'
-                        alt="Video semana 2 clase 1"
+                        className="flex items-center gap-2 no-underline text-gray-700 hover:text-darkblue-600 transition-colors duration-200 pb-5"
+                        href='https://www.youtube.com/watch?v=_h4Hk7DlR0g'
+                        alt="Video semana 1 clase 1"
                         target="_blank">
-                        Ver aquí en Youtube
+                        <span className="material-icons text-darkblue-600 group-hover:text-darkblue-700">ondemand_video</span>
+                        <span>Ver en Youtube</span>
                     </a>
                 </div>
 
+
                 {/* Código de clase en Github */}
                 <div>
-                    <h2 className='title-h2'>Código hecho en clase</h2>
-                    <a
+                    <h2 className='title-h2'>Actividad hecha en clase</h2>
+                    <p>Realizamos sólo el ejercicio 4 que retorna una lista con los IMC de 3 pacientes</p><a
                         className='link'
-                        href="https://github.com/jrigottiedu/TT-1C2025-25011-codigo-de-clases/tree/master/semana_2/clase_1"
-                        alt="Semana 2 Clase 1 Codigo Github"
-                        target="_blank">Ver aquí en Github</a>
+                        href="https://github.com/jrigottiedu/TT-2C2025-Data-Analitycs-Notebooks/blob/main/Clase_2/Clase_2_Actividad_1.ipynb"
+                        alt="Clase 2 Actividad 1 Codigo Github"
+                        target="_blank">Ver Notebook</a>
+                        <p>Completar los ejercicios, de todas formas los vemos en el After Class</p>
                 </div>
 
                 {/* Recordatorios */}
                 <div>
                     <h2 className='title-h2'>Recordatorios</h2>
                     <ul className='list-disc list-inside'>
-                        <li>Validar el acceso al Aula Virtual - en caso que no puedan ingresar, completar el formulario de la mesa de ayuda (ver en página principal)</li>
-                        <li>Completar el Cuestionario del Módulo Introducción para que desbloquee el contenido de la clase 2</li>
-                        <li>Esta semana no tenemos After Class porque el miércoles 2 de abril es feriado</li>
-                        <li>En caso que no puedan aún ingresar al Aula Virtual, les compartimo el enlace a la teoría de la clase 2 para que vayan viendo con anticipación <a className="link" href="https://ttech2025.github.io/flipbook/IP_Python_2.0/Clase02/" target="_blank">Click aquí</a></li>
+                        <li>Validar el acceso al Aula Virtual y <span className='font-semibold'>completar el cuestionario de la clase 2</span> - en caso que no puedan ingresar: <a href="https://docs.google.com/spreadsheets/d/1gtijSJoBKuu-HCkDjLBUto0BwU59-PVkn5mqoxOp_uQ/edit?gid=0#gid=0" target='_blank' className='link'>completar el formulario</a></li>
+                        <li>Nos encontramos el <span  className='font-semibold'>miércoles 3/9 a las 19:00 hs en Meet en nuestro After Class</span>, vamos a resolver el cuestionario y ver las actividades.</li>
                     </ul>
                 </div>
 
                 {/* Temas para la próxima clase */}
                 <div>
-                    <h2 className='title-h2'>Temas a ver en Clase 2</h2>
+                    <h2 className='title-h2'>Temas a ver en Clase 3</h2>
                     <ul className='list-disc list-inside'>
-                        <li>Completar conceptos de programción y algoritmos (pendientes de la clase 1)</li>
-                        <li>Variables y tipos de datos simples</li>
-                        <li>Operador de asignación</li>
-                        <li>Operadores aritméticos</li>
-                        <li>Funciones print() e input()</li>
-                        <li>Conversión entre tipos de datos simples</li>
-                        <li>Programas con entrada, procesamiento y salida de datos</li>
-                    </ul>
-                </div>
-
-                {/* Miscelaneas */}
-                <div>
-                    <h2 className='title-h2'>Miscelaneas</h2>
-                    <p>Les compartirmos unos videos tutoriales sobre lo visto hoy en clase</p>
-                    <ul className='list-disc list-inside'>
-                        <li><strong>Video 1: </strong> Instalando Python <a className="link" href="https://www.youtube.com/watch?v=r1D7hIz9eis" target='_blank'>Ver en Youtube</a></li>
-                        <li><strong>Video 2: </strong> Instalando Visual Studio Code <a className="link" href="https://www.youtube.com/watch?v=wbugePPNUjc" target='_blank'>Ver en Youtube</a></li>
-                        <li><strong>Video 3: </strong> Instalando el Plugin Python en VSCode <a className="link" href="https://www.youtube.com/watch?v=gykxrNQsRUE" target='_blank'>Ver en Youtube</a></li>
-                        <li><strong>Video 4: </strong> Instalando el Plugin Black Formatter en VSCode <a className="link" href="https://www.youtube.com/watch?v=QLMA7aZtCVc" target='_blank'>Ver en Youtube</a></li>
+                        <li>Scopes de variables y tipos de parámetros</li>
+                        <li>Introducción a NumPy y Pandas</li>
+                        <li>Lectura de archivos csv con Pandas</li>
                     </ul>
                 </div>
 
