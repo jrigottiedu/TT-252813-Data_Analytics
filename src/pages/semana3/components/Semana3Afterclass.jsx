@@ -6,7 +6,7 @@ const Semana3Afterclass = () => {
             <h1 className="title-afterclass">After Class | Miércoles 10 de septiembre</h1>
             <section className="home-info-container">
                 <ul>
-                    <li>It's comming...</li>
+                    <li>It's coming...</li>
                 </ul>
             </section>
         </div>
