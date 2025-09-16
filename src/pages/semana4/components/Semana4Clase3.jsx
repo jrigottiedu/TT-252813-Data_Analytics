@@ -3,7 +3,7 @@ import React from 'react'
 const Semana4Clase3 = () => {
     return (
         <div>
-            <h1 className="title-class">Clase 3 | Lunes 14 de abril</h1>
+            <h1 className="title-class">Clase 4 | Lunes 15 de septiembre</h1>
 
             <section className="home-info-container">
 
@@ -12,65 +12,42 @@ const Semana4Clase3 = () => {
                     <h2 className='title-h2'>Resumen de clase</h2>
                     <p className='pt-2'>En nuestra clase de hoy vimos:</p>
                     <ul className='list-disc list-inside'>
-                        <li>Repasamos lo visto en clase 2 <a href='https://github.com/jrigottiedu/TT-1C2025-25011-codigo-de-clases/blob/master/semana_4/clase_3/repaso_ejercicio_clase_2.py' target='_blank' className='link'>Ver código</a></li>
-                        <li>Resolvimos el ejercio de la clase 2 <a href="https://github.com/jrigottiedu/TT-1C2025-25011-codigo-de-clases/blob/master/semana_4/clase_3/repaso_ejercicio_clase_2.py" target="_blank" className='link'>Ver código</a></li>
-                        <li>Sobre ese ejercicio, presentamos el tema "Condicionales" <a href="https://github.com/jrigottiedu/TT-1C2025-25011-codigo-de-clases/blob/master/semana_4/clase_3/condicionales_parte_1.py" target='_blank' className='link'>Ver código</a></li>
-                        <li>Analizamos la estructura (sintáxis) del condicional <a href="https://github.com/jrigottiedu/TT-1C2025-25011-codigo-de-clases/blob/master/semana_4/clase_3/condicionales_parte_2.py" target='_blank' className='link'>Ver código</a></li>
-                        <ul className='list-disc list-inside ml-4'>
-                            <li>palabra reservada if</li>
-                            <li>condicion (puede ser más de una, en ese caso usamos operadores lógicos)</li>
-                            <li>los : marcan el inicio del primer bloque True</li>
-                            <li>else : marca el inicio del bloque False</li>
-                            <li>Los bloques True y False deben respetar la indentación</li>
-                        </ul>
-                        <li>Introducimos los operadores relacionales <a href="https://github.com/jrigottiedu/TT-1C2025-25011-codigo-de-clases/blob/master/semana_4/clase_3/operadores_relacionales.py" target="_blank" className='link'>Ver código de muestra</a></li>
-                        <li>Introducimos los operadores lógicos <a href="https://github.com/jrigottiedu/TT-1C2025-25011-codigo-de-clases/blob/master/semana_4/clase_3/operadores_logicos.py" target="_blank" className='link'>Ver código de muestra</a></li>
-                        <li>Les sugerimos que hagan pruebas con estos últimos dos archivos, cambiando los valores de las variables y analizando el resultado</li>
+                        <li>Introducimos la librería <span className='font-semibold'>NumPy, </span>soporte de Pandas (dataframes) y Seaborn (visualización), debido a su enorme eficiencia para el manejo de Arrays multidimensionales y capacidad de cómputo científico; <a href="https://github.com/jrigottiedu/TT-2C2025-Data-Analitycs-Notebooks/blob/main/Clase_4/Clase_04_NB1_NumPy_intro.ipynb" target='_blank' className='link'>Ver Notebook</a></li>
+                        <li><span className='font-semibold'>Detección de valores nulos: </span> los datasets suelen traer celdas, columas o registros como NULL, que al crear el dataframe (a través de la importación con Pandas) se convierten en NaN (Not a Number). Vimos el método <span className='font-semibold'>isnull() </span>para identificarlos y cuantificarlos; <a href="https://github.com/jrigottiedu/TT-2C2025-Data-Analitycs-Notebooks/blob/main/Clase_4/Clase_04_Datos_nulos_y_duplicados.ipynb" target='_blank' className='link'>Ver Notebook</a></li>
+                        <li>A fin de poder evidenciar los datos NULL y su relación con los NaN, importamos el dataset <span className='font-semibold'>booking_db_null.sqlite </span><a href="https://github.com/jrigottiedu/TT-2C2025-Data-Analitycs-Notebooks/tree/main/Clase_4/Datasets" target='_blank' className='link'>que pueden descargar desde aquí</a>. Convertimos los valores de una columna a Null y al importarlos los vimos como NaN. Dado que la columna representa el promedio de todas las calificaciones, podríamos reconstruirlo, sin necesidad de tener que eliminar todos los registros. </li>
+                        <li>Se invita a quienes esten interesados en explorar la importación de datos directamente desde una Base de Datos, revisar la actualización del Notebook de la clase 3, puntos 4.7 y 4.8 <a href="https://github.com/jrigottiedu/TT-2C2025-Data-Analitycs-Notebooks/blob/main/Clase_3/Clase_03_NB2_Import_datasets_con_pandas.ipynb" target='_blank' className='link'>Ver Notebook</a></li>
+                        <li>Les comparto el PPT de hoy con las filminas adicionales para que tengan la vista global de los aspectos que veremos en este curso <a href="https://docs.google.com/presentation/d/10uHMyFVL96_CHOzouER5Q09uQxcbFm3p/edit?usp=sharing&ouid=115334316874644775342&rtpof=true&sd=true" target='_blank' className='link'>Ver aquí.</a></li>
                     </ul>
                 </div>
 
                 {/* Grabación de Clase en Youtube */}
                 <div>
-                    <h2 className='title-h2'>Grabación de la clase</h2>
+                    <h2 className='title-h2'>Grabación de Clase 4</h2>
                     <a
-                        className='link'
-                        href='https://www.youtube.com/watch?v=eiwMBzx3o8A'
-                        alt="Video semana 4 clase 3"
+                        className="flex items-center gap-2 no-underline text-gray-700 hover:text-darkblue-600 transition-colors duration-200 pb-5"
+                        href='https://youtu.be/j8jshMj-sY4'
+                        alt="Video semana 4 clase 4"
                         target="_blank">
-                        Ver aquí en Youtube
+                        <span className="material-icons text-darkblue-600 group-hover:text-darkblue-700">ondemand_video</span>
+                        <span>Ver en Youtube</span>
                     </a>
-                </div>
-
-                {/* Código de clase en Github */}
-                <div>
-                    <h2 className='title-h2'>Código hecho en clase</h2>
-                    <a
-                        className='link'
-                        href="https://github.com/jrigottiedu/TT-1C2025-25011-codigo-de-clases/tree/master/semana_4/clase_3"
-                        alt="Semana 4 Clase 3 Codigo Github"
-                        target="_blank">Ver aquí en Github</a>
                 </div>
 
                 {/* Recordatorios */}
                 <div>
                     <h2 className='title-h2'>Recordatorios</h2>
                     <ul>
-                        <li>Los que adeuden el Cuestionario de la clase 2, porfi traten de completarlo - <a href="https://www.youtube.com/watch?v=iD0e2si4Imo&list=PLR6qrffywxhDoihz7VcDGyNbVnksVtXnx&index=1&t=2764s" target="_blank" className='link'>Ver aquí resolución</a></li>
-                        <li>Resolver el ejercio de la clase 3 que encuentran en el campus - <a href="https://docs.google.com/presentation/d/1A0y2cZrjtGkVNQCxeSZq5URvTvS8hd6f/edit?slide=id.p1#slide=id.p1" target='_blank' className='link'>también puede ver aquí</a></li>
-                        <li>Nos encontramos el miércoles 16 de abril a las 19:00 en Meet - tienen el link en la sección Inicio</li>
+                        <li>Hoy abre el <span className='font-semibold'>cuestionario 2 de la clase 4, </span> disponible en el Campus Virtual</li>
+                        <li>Nos encontramos el miércoles 17 de septiembre a las 19:00 en Meet - tienen el link en la sección Inicio</li>
                     </ul>
                 </div>
 
                 {/* Temas Clase 4 */}
                 <div>
-                    <h2 className='title-h2'>Temas a ver en Clase 4</h2>
+                    <h2 className='title-h2'>Temas a ver en Clase 5</h2>
                     <ul className='list-disc list-inside'>
-                        <li>Estructuras condicionales avanzadas: elif y match</li>
-                        <li>Manipulación de cadenas</li>
-                        <li>Acceso a caracteres, concatenación, longitud</li>
-                        <li>Métodos de cadenas: lower(), upper(), title()</li>
-                        <li>Formateo de cadenas con f-strings</li>
-                        <li><strong>Ruta de avance:</strong> Ya comenzamos a trabajar en el Proyecto Final Integrador</li>
+                        <li>Vamos a continuar con la detección y tratamiento de valores nulos, y completar lo que nos falto ver hoy sobre datos duplicados.</li>
+                        <li>También vamos a ver corrección de tipos de datos, eliminación de caracteres no deseados, normalización, y filtrado de datos. </li>
                     </ul>
                 </div>
 
