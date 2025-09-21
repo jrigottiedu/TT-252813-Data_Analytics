@@ -4,24 +4,35 @@ const Semana4Afterclass = () => {
     return (
         <div>
             <h1 className="title-afterclass">After Class | Miércoles 17 de septiembre</h1>
-            {/* <section className="home-info-container">
-                <p>Hoy resolvimos el ejercicio de la clase 3, que es una mejora del ejercicio de la clase 2 </p>
-                <p>El objetivo es aplicar "Condicionales" para validar el ingreso de los datos </p>
-                <p>Para el nombre, apellido y correo, queremos mostrar un error si no se ingresa algún dato</p>
-                <p>Para el caso de la edad, queremos mostrar un error si se ingresa una edad menor a 18</p>
-                <p>Vimos varios enfoques, pueden ir explorando los códigos que subimos al repositorio Github</p>
-                <ul className='list-disc list-inside ml-4'>
-                    <li><a href="https://github.com/jrigottiedu/TT-1C2025-25011-codigo-de-clases/blob/master/semana_4/after_class/validar_ingresos_simples.py" target='_blank' className='link'>Validando ingresos simples</a></li>
-                    <li><a href="https://github.com/jrigottiedu/TT-1C2025-25011-codigo-de-clases/blob/master/semana_4/after_class/validar_multiples_ingresos.py" target='_blank' className='link'>Validando ingresos múltiples</a></li>
-                    <li><a href="https://github.com/jrigottiedu/TT-1C2025-25011-codigo-de-clases/blob/master/semana_4/after_class/ejercicio_v1.py" target='_blank' className='link'>Primera versión del ejercicio aplicando validación a cada dato ingresado</a></li>
-                    <li><a href="https://github.com/jrigottiedu/TT-1C2025-25011-codigo-de-clases/blob/master/semana_4/after_class/ejercicio_v2.py" target='_blank' className='link'>Segunda versión del ejercicio aplicando validación múltiple, combinando operadores lógicos</a></li>
+<section className="home-info-container">
+                <h2 className='title-h2'>Resumen del After Class</h2>
+                <ul className='list-disc list-inside'>
+                    <li>Resolvimos el cuestionario de la clase 4</li>
+                    <li>Resolvimos el ejercicio de tarea sobre identificación de nulos y duplicados en el dataset sobre mediciones de temperatura de 150 pacientes durante 10 días</li>
+                    <li>Mencionamos los métodos de imputación y dejamos un interrogante para la próxima clase</li>
+                    <li><a href="https://github.com/jrigottiedu/TT-2C2025-Data-Analitycs-Notebooks/blob/main/After_class_4/After_Class_Datos_nulos_y_duplicados.ipynb" target='_blank' className='link'>Ver Notebook</a></li>
+                    <li>Al inicio del after conversamos sobre este artículo de Medium con links a videos tutoriales sobre Power BI y Python <a href="https://medium.com/@brittanycity/100-days-of-data-analytics-a-complete-guide-d278ac34655b" target='_blank' className='link'>Ver aquí</a></li>
                 </ul>
-                <p className='pt-3'>Finalmente, encontrarán los enlaces a la grabación en Youtube y el repositorio completo en Github</p>
-                <ul>
-                    <li><a href='https://youtu.be/txq7nvrGEeM' target="_blank" className='link'>Link video After Class en Youtube</a></li>
-                    <li><a href='https://github.com/jrigottiedu/TT-1C2025-25011-codigo-de-clases/tree/master/semana_4/after_class' target='_blank' className='link'>Link resolución ejercicios en Github</a></li>
+
+
+                <h2 className='title-h2 pt-10'>Recordatorios</h2>
+                <ul className='list-disc list-inside'>
+                    <li>Nos encontramos nuevamente el Lunes 22/9 a las 19:00 hs por Zoom, tienen el Link en la page Inicio</li>
                 </ul>
-            </section> */}
+
+                {/* Grabación de After Class en Youtube */}
+                <div className='py-5'>
+                    <h2 className='title-h2'>Grabación del After Class 4</h2>
+                    <a
+                        className="flex items-center gap-2 no-underline text-gray-700 hover:text-darkblue-600 transition-colors duration-200 pb-5"
+                        href='https://www.youtube.com/watch?v=WDVpOZcUyCA'
+                        alt="Video semana 4 After Class "
+                        target="_blank">
+                        <span className="material-icons text-darkblue-600 group-hover:text-darkblue-700">ondemand_video</span>
+                        <span>Ver en Youtube</span>
+                    </a>
+                </div>
+            </section>
         </div>
     )
 }
