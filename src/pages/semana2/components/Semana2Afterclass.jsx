@@ -7,7 +7,7 @@ const Semana2Afterclass = () => {
             <section className="home-info-container">
                 {/* Grabación de Clase en Youtube */}
                 <div>
-                    <h2 className='title-h2'>Grabación de Clase 1</h2>
+                    <h2 className='title-h2'>Grabación del After Class 2</h2>
                     <a
                         className="flex items-center gap-2 no-underline text-gray-700 hover:text-darkblue-600 transition-colors duration-200 pb-5"
                         href='https://www.youtube.com/watch?v=sgZ9V2yVZgs'

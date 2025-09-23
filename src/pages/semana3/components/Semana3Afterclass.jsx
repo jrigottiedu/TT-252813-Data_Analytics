@@ -27,7 +27,7 @@ const Semana3Afterclass = () => {
 
                 {/* Grabación de After Class en Youtube */}
                 <div className='py-5'>
-                    <h2 className='title-h2'>Grabación del After Class 1</h2>
+                    <h2 className='title-h2'>Grabación del After Class 3</h2>
                     <a
                         className="flex items-center gap-2 no-underline text-gray-700 hover:text-darkblue-600 transition-colors duration-200 pb-5"
                         href='https://www.youtube.com/watch?v=HkaI22RWsg0'
