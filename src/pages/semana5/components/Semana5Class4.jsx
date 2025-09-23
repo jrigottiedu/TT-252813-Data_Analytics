@@ -26,13 +26,16 @@ const Semana5Class4 = () => {
                 <div>
                     <h2 className='title-h2'>Grabación de la clase</h2>
                     <a
-                        className='link'
+                        className="flex items-center gap-2 no-underline text-gray-700 hover:text-darkblue-600 transition-colors duration-200 pb-5"
                         href='https://www.youtube.com/watch?v=vodYwzKVmvQ'
-                        alt="Video semana 5 clase 5"
+                        alt="Video semana 4 clase 4"
                         target="_blank">
-                        Ver aquí en Youtube
+                        <span className="material-icons text-darkblue-600 group-hover:text-darkblue-700">ondemand_video</span>
+                        <span>Ver en Youtube</span>
                     </a>
                 </div>
+
+
 
                 {/* Recordatorios */}
                 <div>
