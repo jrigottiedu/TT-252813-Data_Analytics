@@ -12,7 +12,7 @@ const Semana6Class5 = () => {
                     <h2 className='title-h2'>Resumen de clase</h2>
                     <p className='pt-2'>En nuestra clase de hoy vimos:</p>
                     <ul className='list-disc list-inside'>
-                        <li>Ya esta <span className='font-semibold'>disponible la consigna para la pre-entrega</span>disponible la consigna para la pre-entrega que pueden <a href="https://gamma.app/docs/Pre-Entrega-de-Proyecto-4eq8frsd0ubt429?mode=doc" target='_blank' className='link'>Ver aquí</a></li>
+                        <li>Ya esta <span className='font-semibold'>disponible la consigna para la pre-entrega</span> que pueden <a href="https://gamma.app/docs/Pre-Entrega-de-Proyecto-4eq8frsd0ubt429?mode=doc" target='_blank' className='link'>Ver aquí</a></li>
                         <li>En clase 7 les vamos a dar más detalles, y recuerden que el After Class del miércoles 8/10 será un <span className='font-semibold'> taller de 90 minutos dedicado a a la pre-entrega</span></li>
                         <li>El área de carga de la pre-entrega en el campus se habilita el lunes 13/10 (recuerden que deben estar al día con el cuestionario de la clase 6) y tienen una semana hasta el lunes 20/10</li>
                         <li>Hoy, en clase 6, finalizamos  el Notebook de Clase 5 con los siguientes temas:</li>
@@ -21,8 +21,8 @@ const Semana6Class5 = () => {
                         <li>Normalización (mencionamos Regex) y ajuste de tipo de dato (nos queda ver datetime)</li>
                         <li><a href="https://github.com/jrigottiedu/TT-2C2025-Data-Analitycs-Notebooks/blob/main/Clase_5/Clase_05_NB1.ipynb" target='_blank' className='link'>Ver Notebook Clase 5 aquí</a></li>
                         <li>Comenzamos el Notebook de <span className='font-semibold'>Clase 6 sobre filtros</span>, llegamos a ver algunas estructuras simples, para filas y columnas con condicionales. En clase 7 completamos con los métodos filter (similares a consultas SQL) y querie</li>
-                        <li><a href="https://github.com/jrigottiedu/TT-2C2025-Data-Analitycs-Notebooks/blob/main/Clase_6/Clase_06_NB1.ipynb" target='_blank' className='link'></a>Ver Notebook Clase 6 con lo que vimos en clase</li>
-                        <li><a href="https://github.com/jrigottiedu/TT-2C2025-Data-Analitycs-Notebooks/blob/main/Clase_6/Clase_06_NB1_Resuelto.ipynb" target='_blank' className='link'></a>Ver Notebook Clase 6 completo para que puedan adelantar</li>
+                        <li><a href="https://github.com/jrigottiedu/TT-2C2025-Data-Analitycs-Notebooks/blob/main/Clase_6/Clase_06_NB1.ipynb" target='_blank' className='link'>Ver Notebook Clase 6 con lo que vimos en clase</a></li>
+                        <li><a href="https://github.com/jrigottiedu/TT-2C2025-Data-Analitycs-Notebooks/blob/main/Clase_6/Clase_06_NB1_Resuelto.ipynb" target='_blank' className='link'>Ver Notebook Clase 6 completo para que puedan adelantar</a></li>
 
 
                     </ul>
