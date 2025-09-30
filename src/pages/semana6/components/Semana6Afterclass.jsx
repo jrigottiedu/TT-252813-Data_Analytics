@@ -3,8 +3,8 @@ import React from 'react'
 const Semana6Afterclass = () => {
   return (
     <div>
-      <h1 className="title-afterclass">After Class | Miércoles 30 de abril</h1>
-      <section className="home-info-container">
+      <h1 className="title-afterclass">After Class | Miércoles 1 de octubre</h1>
+      {/* <section className="home-info-container">
         <p className='font-bold'>Resolvimos el ejercicio de la clase 5 - <a href="https://docs.google.com/presentation/d/1Mh7kDSXG9TRIVTILQrJMGk3POIJlpe_Z/edit?usp=sharing&ouid=115334316874644775342&rtpof=true&sd=true" target='_blank' className='link'>Ver enunciado aquí</a></p>
         <ul className='list-disc list-inside'>
           <li>Separamos el ejercio en Parte A y Parte B</li>
@@ -36,7 +36,7 @@ const Semana6Afterclass = () => {
           <li><a href='https://github.com/jrigottiedu/TT-1C2025-25011-codigo-de-clases/blob/master/semana_6/after_class/adivinar_numero.py' target='_blank' className='link'>Ver codigo con anotaciones importantes</a></li>
           <li><a href="https://www.youtube.com/watch?v=4Op8TwTgv9g" target='_blank' className='link'>Ver video con resolución - Hacer click en 01:18:00</a></li>
         </ul>
-      </section>
+      </section> */}
     </div>
   )
 }
