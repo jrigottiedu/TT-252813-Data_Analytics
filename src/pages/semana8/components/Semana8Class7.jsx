@@ -22,7 +22,8 @@ const Semana8Class7 = () => {
                         <li>Analizamos 3 queries SQL, comenzando por un join simple entre la tabla "reviews" y "hotels" que luego fuimos desarrollando en el Colab usando merge</li>
                         <li>Aqui observamos el potencial de Pandas, uniendo dataframes, y luego aplicamos filtros y agregación para encontrar un Hotel de Argentina</li>
                         <li>Como "Bonus Track", encontramos que el dataset provee los datos de latitud y longitud del Hotel, que podemos usar para hacer "enrichment" y complementar los datos originales, por ejemplo con la dirección del hotel, haciendo peticiones a una API (Open Street Map)</li>
-                        <li><a href="https://colab.research.google.com/drive/1SL2QJ90wsoPh9Qi3_gauFSMDn_77OXts#scrollTo=psGGQmT1Opr1" target='_blank' className='link'>Ver Notebook Clase 8 - Concat - Merge - Join</a></li>
+                        <li><a href="https://colab.research.google.com/drive/1SL2QJ90wsoPh9Qi3_gauFSMDn_77OXts#scrollTo=psGGQmT1Opr1" target='_blank' className='link'>Ver Notebook Clase 8 Colab - Concat - Merge - Join</a></li>
+                        <li><a href="https://github.com/jrigottiedu/TT-2C2025-Data-Analitycs-Notebooks/blob/main/Clase_8/Clase_08_Cat_Merge_Join.ipynb" target='_blank' className='link'>Ver Notebook Clase 8 Github - Concat - Merge - Join</a></li>
                     </ul>
                 </div>
 
