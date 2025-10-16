@@ -4,110 +4,39 @@ const Semana8Afterclass = () => {
   return (
     <div>
       <h1 className="title-afterclass">After Class | Miércoles 15 de Octubre</h1>
-      {/* <section className="home-info-container">
-        <p className='font-bold pb-2'>Trabajamos en las opciones del Menú para la Pre-entrega</p>
+      <section className="home-info-container">
+        <h2 className='title-h2'>Resumen del Taller</h2>
+        <ul className='list-disc list-inside'>
+          <li>Hoy finalizamos la actividad 4 de la Pre-entrega</li>
+          <li><a href="https://gamma.app/docs/Pre-Entrega-de-Proyecto-4eq8frsd0ubt429?mode=doc" target='_blank' className='link'>Ver consigna</a></li>
+          <li><a href="https://colab.research.google.com/drive/1mAWq_MkiyT_VWEOixSlLuq1Yi_EuIJO1" target='_blank' className='link'>Ver Notbook en Drive</a></li>
+          <li><a href="https://github.com/jrigottiedu/TT-2C2025-Data-Analitycs-Notebooks/blob/main/PreEntrega/Pre-entrega.ipynb" target='_blank' className='link'>Ver Notbook en Github</a></li>
+          <li>Hicimos el merge de los dataframes Ventas con Marketing, filtramos por la fecha de la campaña y calculamos ventas totales, costo de campaña de marketing y ganancias</li>
+          <li>Notamos que la tabla Marketing tiene para el mismo producto 3 canales de promoción, de manera que al hacer el merge, vemos las ventas de productos triplicadas.</li>
+          <li>Planteamos como solución (modificando minimanete lo hecho hasta ahora) hacer una agregación de costos en marketing antes de hacer el merge. En el código estan planteadas ambas opciones.</li>
+          <li>Luego, posterior a la clase, analicé con más detalle, y les agrege una última sección "Solución al problema de los duplicados" con otro enfoque, y otra agregación un poco más compleja. No se complique, la idea del ejercicio es analizar y poner en práctica lo aprendido.</li>
 
-        <a
-          href="https://www.youtube.com/watch?v=giH54Gv74j0"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex items-center gap-2 no-underline text-gray-700 hover:text-red-600 transition-colors duration-200 pb-5"
-        >
-          <span className="material-icons text-red-600 group-hover:text-red-700">ondemand_video</span>
-          <span>Video de clase grabada</span>
-        </a>
+        </ul>
 
 
-        <div className='bg-gray-100 p-2 border border-gray-400 rounded-xl mb-10 w-full'>
-          <p className='font-bold pb-2'>Versión 1 - Enfoque más simple *** recomendado *** <a href="https://github.com/jrigottiedu/TT-1C2025-25011-codigo-de-clases/edit/master/semana_8/after_class/pre-entrega_version_pop.py" target='_blank' className='link'>Ver código</a></p>
+        <h2 className='title-h2 pt-10'>Recordatorios</h2>
+        <ul className='list-disc list-inside'>
+          <li>Nos encontramos nuevamente el Lunes 20/10 a las 19:00 hs por Zoom, tienen el Link en la page Inicio</li>
+        </ul>
 
-          <p className='font-semibold'>Menú opción 1: Alta de productos</p>
-          <ul className='list-disc list-inside'>
-            <li>Declaramos una lista global llamada lista_productos que almacena todos los productos ingresados</li>
-            <li>Para cada producto, el usuario ingresa: nombre, categoria y precio</li>
-            <li>Solo validamos nombre, agregar validación en otros campos</li>
-            <li>Cargamos esos datos en una sublista temporal llamada producto</li>
-            <li>Usamos el método append para insertar la sublista producto, el la lista principal lista_productos</li>
-          </ul>
-
-          <p className='font-semibold'>Menú opción 2: Mostrar productos</p>
-          <ul className='list-disc list-inside'>
-            <li>Usamos un bucle for con range para generar los índices y luego iterar lista_productos</li>
-            <li>Almacenamos en una variable temporal producto, cada sublista de lista_productos</li>
-            <li>Usamos un print con los índice relativos para acceder a cada dato del producto</li>
-          </ul>
-
-          <p className='font-semibold'>Menú opción 3: Buscar productos</p>
-          <ul className='list-disc list-inside'>
-            <li>Aún sin acción</li>
-          </ul>
-
-          <p className='font-semibold'>Menú opción 4: Eliminar productos</p>
-          <ul className='list-disc list-inside'>
-            <li>El usuario primero ejecuta la opción 2 para averiguar el índice del producto a eliminar</li>
-            <li>En esta opción, ingresa el índice del producto a eliminar</li>
-            <li>usamos el método pop que recibe como argumento el índice a borrar</li>
-            <li>*** Notamos que pop, al eliminar el producto, los índices se reacomodan, lo que podría generar confución en el usuario</li>
-          </ul>
-
-          <a href="https://github.com/jrigottiedu/TT-1C2025-25011-codigo-de-clases/blob/master/semana_8/after_class/pop.py" target='_blank' className='link'>Ver ejemplos de uso de pop aplicados a lista_productos</a>
+        {/* Grabación de After Class en Youtube */}
+        <div className='py-5'>
+          <h2 className='title-h2'>Grabación del Taller Pre-entrega</h2>
+          <a
+            className="flex items-center gap-2 no-underline text-gray-700 hover:text-darkblue-600 transition-colors duration-200 pb-5"
+            href='https://youtu.be/MI7yrwnldIE'
+            alt="Video semana 8 After Class 8"
+            target="_blank">
+            <span className="material-icons text-darkblue-600 group-hover:text-darkblue-700">ondemand_video</span>
+            <span>Ver en Youtube</span>
+          </a>
         </div>
-
-
-        <div className='bg-gray-100 p-2 border border-gray-400 rounded-xl mb-10 w-full'>
-          <p className='font-bold pb-2'>Versión 2 - Variante, reemplazamos pop por clear <a href="https://github.com/jrigottiedu/TT-1C2025-25011-codigo-de-clases/blob/master/semana_8/after_class/pre-entrega_version_clear.py" target='_blank' className='link'>Ver código</a></p>
-
-          <p className='font-semibold'>Menú opción 1: Alta de productos</p>
-          <ul className='list-disc list-inside'>
-            <li>Igual que versión 1</li>
-          </ul>
-
-          <p className='font-semibold'>Menú opción 2: Mostrar productos</p>
-          <ul className='list-disc list-inside'>
-            <li>Hay que agregar la validación de la línea 57 para evitar error de índice</li>
-          </ul>
-
-          <p className='font-semibold'>Menú opción 3: Buscar productos</p>
-          <ul className='list-disc list-inside'>
-            <li>Aún sin acción</li>
-          </ul>
-
-          <p className='font-semibold'>Menú opción 4: Eliminar productos</p>
-          <ul className='list-disc list-inside'>
-            <li>Usamos el método clear en lugar de pop</li>
-          </ul>
-          <a href="https://github.com/jrigottiedu/TT-1C2025-25011-codigo-de-clases/blob/master/semana_8/after_class/clear.py" target='_blank' className='link'>Ver ejemplos de uso de clear aplicados a lista_productos</a>
-        </div>
-
-        <div className='bg-gray-100 p-2 border border-gray-400 rounded-xl mb-10 w-full'>
-          <p className='font-bold pb-2'>Versión 3 - Versión más robusta *** no es necesario para la pre-entrega *** <a href="https://github.com/jrigottiedu/TT-1C2025-25011-codigo-de-clases/blob/master/semana_8/after_class/pre-entrega_version_id.py" target='_blank' className='link'>Ver código</a></p>
-
-          <p className='font-semibold'>Menú opción 1: Alta de productos</p>
-          <ul className='list-disc list-inside'>
-            <li>A diferencia de las versiones anteriores, el usuario ingresa: ID, nombre, categoría y precio</li>
-          </ul>
-
-          <p className='font-semibold'>Menú opción 2: Mostrar productos</p>
-          <ul className='list-disc list-inside'>
-            <li>Usamos un bucle for sin range, ya que no necesitamos el índice, el ID esta en la sublista producto</li>
-          </ul>
-
-          <p className='font-semibold'>Menú opción 3: Buscar productos</p>
-          <ul className='list-disc list-inside'>
-            <li>Aún sin acción</li>
-          </ul>
-
-          <p className='font-semibold'>Menú opción 4: Eliminar productos</p>
-          <ul className='list-disc list-inside'>
-            <li>El usuario primero ejecuta la opción 2 para averiguar el ID del producto a eliminar</li>
-            <li>En esta opción, ingresa el ID del producto a eliminar</li>
-            <li>Usamos un bucle for para iterar la lista_productos y un condicional para validar el producto con ID ingresado</li>
-            <li>Finalmente usamos el método remove para eliminarlo</li>
-          </ul>
-
-        </div>
-
-      </section> */}
+      </section>
     </div>
   )
 }
