@@ -30,7 +30,7 @@ const Semana9Class8 = () => {
                     <h2 className='title-h2'>Grabación de la clase</h2>
                     <a
                         className='link'
-                        href=''
+                        href='https://www.youtube.com/watch?v=frB19wR_-7Y'
                         alt="Video semana 9 clase 9"
                         target="_blank">
                         Ver aquí en Youtube
