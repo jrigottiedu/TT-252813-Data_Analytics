@@ -17,7 +17,7 @@ const Semana5Class4 = () => {
                         <li>Desde el Notebook de Colab, vimos con detalle el uso de <span className='font-semibold'>duplicated()</span> para la detección de registros duplicados.</li>
                         <li>Y luego aplicamos el método <span className='font-semibold'>drop_duplicates()</span> con distintos argumentos para customizar la eliminación de registros.</li>
                         <li>Lo mismo hicimos con <span>isnull()</span> para la detección de celdas nulas o NaN y aplicamos el método <span className='font-semibold'>dropna()</span> para removerlos. También analizamos los posibles argumentos.</li>
-                        <li><a href="https://github.com/jrigottiedu/TT-2C2025-Data-Analitycs-Notebooks/blob/main/Clase_5/Clase_05_NB1.ipynb" target='_blank' className='link'>Ver Notebook Clase 5 aquí</a></li>
+                        <li><a href="https://github.com/jrigottiedu/TT-2C2025-Data-Analitycs-Notebooks/blob/main/_09_Clase_5/Clase_05_NB1.ipynb" target='_blank' className='link'>Ver Notebook Clase 5 aquí</a></li>
                         <li>En la carpeta <span className='font-semibold'>"Datasets"</span> de Clase 3 encuentran los 3 datasets que se mencionan en este Notebook <a href="https://drive.google.com/drive/folders/1LI3HcSqcrSJ52YZAoQG0NNmdOnHVSJHG" target='_blank' className='link'>Ver aquí</a></li>
                     </ul>
                 </div>
