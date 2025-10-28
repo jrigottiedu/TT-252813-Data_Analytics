@@ -14,11 +14,11 @@ const Semana7Class6 = () => {
                     <ul className='list-disc list-inside'>
                         <li>Completamos el Notebook de clase 6 con el análisis de conversión de tipo de datos <span className='font-semibold'>"datetime"</span> , un pilar fundamental de cualquier análisis de datos</li>
                         <li>En el mismo notebook, completamos los <span className='font-semibold'>filtros condicionales</span>  con contains (para búsquedas flexibles) y isin (para búsquedas con listas)</li>
-                        <li><a href="https://github.com/jrigottiedu/TT-2C2025-Data-Analitycs-Notebooks/blob/main/Clase_6/Clase_06_NB1_Resuelto.ipynb" target='_blank' className='link'>Ver NB clase 6</a></li>
+                        <li><a href="https://github.com/jrigottiedu/TT-2C2025-Data-Analitycs-Notebooks/blob/main/_11_Clase_6/Clase_06_NB1_Resuelto.ipynb" target='_blank' className='link'>Ver NB clase 6</a></li>
                         <li>Planteamos otro de los pilares del análisis de datos, <span className='font-semibold'>agrupamiento/agregaciones</span>. Importamos un dataset de Kaggle con datos de ventas de productos, con varias jerarquías (país, región, estado, ciudad) y (categoría, subcategoría) de manera de poder apreciar el potencial de la herramienta en el análisis de ventas.</li>
-                        <li><a href="https://github.com/jrigottiedu/TT-2C2025-Data-Analitycs-Notebooks/blob/main/Clase_6/Clase_06_NB1_Resuelto.ipynb" target='_blank' className='link'>Ver NB clase 7 iniciado</a></li>
+                        <li><a href="https://github.com/jrigottiedu/TT-2C2025-Data-Analitycs-Notebooks/blob/main/_13_Clase_7/Clase_07_NB1_Agregacion.ipynb" target='_blank' className='link'>Ver NB clase 7 iniciado</a></li>
                         <li>Si bien en la próxima clase vamos a completar lo que nos falta sobre agrupamiento/agregación y los items de filtrado con filter y query, les comparto el Notebook completo para que vayan explorando si tienen tiempo:</li>
-                        <li><a href="https://github.com/jrigottiedu/TT-2C2025-Data-Analitycs-Notebooks/blob/main/Clase_6/Clase_06_NB1_Resuelto.ipynb" target='_blank' className='link'>Ver NB clase 7 resuelto</a></li>
+                        <li><a href="https://github.com/jrigottiedu/TT-2C2025-Data-Analitycs-Notebooks/blob/main/_13_Clase_7/Clase_07_NB1_Agregacion_Resuelto.ipynb" target='_blank' className='link'>Ver NB clase 7 resuelto</a></li>
                     </ul>
                 </div>
 

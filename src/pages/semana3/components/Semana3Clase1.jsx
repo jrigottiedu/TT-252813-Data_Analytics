@@ -12,15 +12,15 @@ const Semana3Clase1 = () => {
                     <h2 className='title-h2'>Resumen de clase</h2>
                     <p className='pt-2'>En nuestra clase de hoy vimos:</p>
                     <ul className='list-disc list-inside'>
-                        <li>Librería <span>Pandas</span>: para manejo de Dataframes y Series (muy utilizado en series de tiempo) <a href="https://github.com/jrigottiedu/TT-2C2025-Data-Analitycs-Notebooks/blob/main/Clase_3/Clase_03_NB1_Intro_Pandas.ipynb" target='_blank' className='link'>Ver Notebook</a></li>
+                        <li>Librería <span>Pandas</span>: para manejo de Dataframes y Series (muy utilizado en series de tiempo) <a href="https://github.com/jrigottiedu/TT-2C2025-Data-Analitycs-Notebooks/blob/main/_05_Clase_3/Clase_03_NB1_Intro_Pandas.ipynb" target='_blank' className='link'>Ver Notebook</a></li>
                         <li>Sin datos no hay análisis, por eso dedicamos buena parte de la clase a explorar diferentes alternativas para importar datasets con Pandas, desde:</li>
                         <li className='ps-5'>Google Sheets</li>
                         <li className='ps-5'>Archivo csv en Google Drive</li>
                         <li className='ps-5'>Github</li>
                         <li className='ps-5'>Kaggle (datasets públicos y privados)</li>
-                        <li className='ps-5'><a href="https://github.com/jrigottiedu/TT-2C2025-Data-Analitycs-Notebooks/blob/main/Clase_3/Clase_03_NB2_Import_datasets_con_pandas.ipynb" target='_blank' className='link'>Ver Notebook</a></li>
-                        <li>Finalmente, importamos el famoso dataset "Titanic" para hacer un breve EDA (Análisis Exploratorio de Datos) con algunos métodos de Pandas <a href="https://github.com/jrigottiedu/TT-2C2025-Data-Analitycs-Notebooks/blob/main/Clase_3/Clase_03_NB3_EDA_pandas.ipynb" target='_blank' className='link'>Ver Notebook</a></li>
-                        <li>Sobre el final de la clase presentamos un Notebook con Scope y Argumentos avanzados en Python que veremos luego en mayor detalle <a href="https://github.com/jrigottiedu/TT-2C2025-Data-Analitycs-Notebooks/blob/main/Clase_3/Clase_03_NB4_Scope_y_Argumentos.ipynb" target='_blank' className='link'>Ver Notebook</a></li>
+                        <li className='ps-5'><a href="https://github.com/jrigottiedu/TT-2C2025-Data-Analitycs-Notebooks/blob/main/_05_Clase_3/Clase_03_NB2_Import_datasets_con_pandas.ipynb" target='_blank' className='link'>Ver Notebook</a></li>
+                        <li>Finalmente, importamos el famoso dataset "Titanic" para hacer un breve EDA (Análisis Exploratorio de Datos) con algunos métodos de Pandas <a href="https://github.com/jrigottiedu/TT-2C2025-Data-Analitycs-Notebooks/blob/main/_05_Clase_3/Clase_03_NB3_EDA_pandas.ipynb" target='_blank' className='link'>Ver Notebook</a></li>
+                        <li>Sobre el final de la clase presentamos un Notebook con Scope y Argumentos avanzados en Python que veremos luego en mayor detalle <a href="https://github.com/jrigottiedu/TT-2C2025-Data-Analitycs-Notebooks/blob/main/_05_Clase_3/Clase_03_NB4_Scope_y_Argumentos.ipynb" target='_blank' className='link'>Ver Notebook</a></li>
                     </ul>
                 </div>
 

@@ -14,11 +14,11 @@ const Semana2Clase1 = () => {
                     <ul className='list-disc list-inside'>
                         <li>Repaso de estructuras de datos: <span className='font-semibold'>listas, tuplas, diccionarios y conjuntos</span>, cada uno con sus métodos - <a href="https://github.com/jrigottiedu/TT-2C2025-Data-Analitycs-Notebooks/blob/main/Clase_2/Clase_2_Teoria_Estructuras_de_datos.ipynb" target='_blank' className='link'>Ver Notebook</a></li>
 
-                        <li>Funciones <span className='font-semibold'>lambda</span>, sintáxis y usos <a href="https://github.com/jrigottiedu/TT-2C2025-Data-Analitycs-Notebooks/blob/main/Clase_2/Clase_2_Teoria_Lambda%2C%20Map%2C%20Filter%2C%20Reduce.ipynb" target='_blank' className='link'>Ver Notebook</a></li>
+                        <li>Funciones <span className='font-semibold'>lambda</span>, sintáxis y usos <a href="https://github.com/jrigottiedu/TT-2C2025-Data-Analitycs-Notebooks/blob/main/_03_Clase_2/Clase_2_Teoria_Lambda%2C%20Map%2C%20Filter%2C%20Reduce.ipynb" target='_blank' className='link'>Ver Notebook</a></li>
                         <li className='ps-3'>Lambda como argumento en función sorted</li>
                         <li className='ps-3'>Lambda con <span className='font-semibold'>map, filter y reduce</span></li>
 
-                        <li>List & Dict comprehension <a href="https://github.com/jrigottiedu/TT-2C2025-Data-Analitycs-Notebooks/blob/main/Clase_2/Clase_2_Teoria_List%20%26%20Dic%20Comprehension.ipynb" target='_blank' className='link'>Ver Notebook</a></li>
+                        <li>List & Dict comprehension <a href="https://github.com/jrigottiedu/TT-2C2025-Data-Analitycs-Notebooks/blob/main/_03_Clase_2/Clase_2_Teoria_List%20%26%20Dic%20Comprehension.ipynb" target='_blank' className='link'>Ver Notebook</a></li>
                         <li className='ps-3'><span className='font-semibold'>Listas por comprensión:</span> generamos listas a partir de un for in dentro de la estructura de la lista (equivalente a map)</li>
                         <li className='ps-3'>Si combinamos con condicionales, es equivalente a filter</li>
                         <li className='ps-3'><span className='font-semibold'>Diccionarios por comprensión:</span> (lo vemos con más detalles en la práctica)</li>
@@ -43,7 +43,7 @@ const Semana2Clase1 = () => {
                     <h2 className='title-h2'>Actividad hecha en clase</h2>
                     <p>Realizamos sólo el ejercicio 4 que retorna una lista con los IMC de 3 pacientes</p><a
                         className='link'
-                        href="https://github.com/jrigottiedu/TT-2C2025-Data-Analitycs-Notebooks/blob/main/Clase_2/Clase_2_Actividad_1.ipynb"
+                        href="https://github.com/jrigottiedu/TT-2C2025-Data-Analitycs-Notebooks/blob/main/_03_Clase_2/Clase_2_Actividad_1.ipynb"
                         alt="Clase 2 Actividad 1 Codigo Github"
                         target="_blank">Ver Notebook</a>
                         <p>Completar los ejercicios, de todas formas los vemos en el After Class</p>

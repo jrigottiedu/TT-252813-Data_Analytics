@@ -19,7 +19,7 @@ const Semana9Class8 = () => {
                         <li>RIC (rango intercuartil), Q1, Q2, Q3, outliers - intro a boxplots</li>
                         <li>Distribución de la muestra - intro a histogramas</li>
                         <li><a href="https://colab.research.google.com/drive/16P9TtxUm7TcR7M9ln83iXwBdPbO6kuUz#scrollTo=RJnGRSzBHpax" target='_blank' className='link'>Link Notebook Clase 9 Google Drive</a></li>
-                        <li><a href="https://github.com/jrigottiedu/TT-2C2025-Data-Analitycs-Notebooks/blob/main/Clase_9/Clase_9_Estadistica_descriptiva.ipynb" target='_blank' className='link'>Link Notebook Clase 9 Github</a></li>
+                        <li><a href="https://github.com/jrigottiedu/TT-2C2025-Data-Analitycs-Notebooks/blob/main/_17_Clase_9/Clase_9_Estadistica_descriptiva.ipynb" target='_blank' className='link'>Link Notebook Clase 9 Github</a></li>
                         <li><a href="https://drive.google.com/file/d/1VBptkBlvOjZWHGO6y6Ori4KkuuDtu-Ak/view?usp=sharing" target='_blank' className='link'>PDF teoría</a></li>
                         <li><a href="https://docs.google.com/presentation/d/15hOFTz9BShLrCto1MWIeGcTPOER9ZnJA/edit?usp=sharing&ouid=115334316874644775342&rtpof=true&sd=true" target='_blank' className='link'>PPT Presentación</a></li>
                     </ul>

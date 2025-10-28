@@ -21,8 +21,8 @@ const Semana6Class5 = () => {
                         <li>Normalización (mencionamos Regex) y ajuste de tipo de dato (nos queda ver datetime)</li>
                         <li><a href="https://github.com/jrigottiedu/TT-2C2025-Data-Analitycs-Notebooks/blob/main/Clase_5/Clase_05_NB1.ipynb" target='_blank' className='link'>Ver Notebook Clase 5 aquí</a></li>
                         <li>Comenzamos el Notebook de <span className='font-semibold'>Clase 6 sobre filtros</span>, llegamos a ver algunas estructuras simples, para filas y columnas con condicionales. En clase 7 completamos con los métodos filter (similares a consultas SQL) y querie</li>
-                        <li><a href="https://github.com/jrigottiedu/TT-2C2025-Data-Analitycs-Notebooks/blob/main/Clase_6/Clase_06_NB1.ipynb" target='_blank' className='link'>Ver Notebook Clase 6 con lo que vimos en clase</a></li>
-                        <li><a href="https://github.com/jrigottiedu/TT-2C2025-Data-Analitycs-Notebooks/blob/main/Clase_6/Clase_06_NB1_Resuelto.ipynb" target='_blank' className='link'>Ver Notebook Clase 6 completo para que puedan adelantar</a></li>
+                        <li><a href="https://github.com/jrigottiedu/TT-2C2025-Data-Analitycs-Notebooks/blob/main/_11_Clase_6/Clase_06_NB1.ipynb" target='_blank' className='link'>Ver Notebook Clase 6 con lo que vimos en clase</a></li>
+                        <li><a href="https://github.com/jrigottiedu/TT-2C2025-Data-Analitycs-Notebooks/blob/main/_11_Clase_6/Clase_06_NB1_Resuelto.ipynb" target='_blank' className='link'>Ver Notebook Clase 6 completo para que puedan adelantar</a></li>
 
 
                     </ul>
