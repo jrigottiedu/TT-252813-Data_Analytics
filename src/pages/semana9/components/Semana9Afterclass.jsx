@@ -5,7 +5,7 @@ const Semana9Afterclass = () => {
     <div>
       <h1 className="title-afterclass">After Class | Miércoles 22 de octubre</h1>
       <section className="home-info-container">
-        <h2 className='title-h2'>Resumen del Taller</h2>
+        <h2 className='title-h2'>Resumen del After Class</h2>
         <ul className='list-disc list-inside'>
           <li>Hoy finalizamos reforzamos con un ejemplo el uso de Merge/Join y analizamos inquietudes de la actividad 4 de la Pre-entrega</li>
           <li><a href="https://colab.research.google.com/drive/1DCaGhoVB6GCKLznBm0XD0tLEs1rx_uRW" target='_blank' className='link'>Ejemplo Merge</a></li>
