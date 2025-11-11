@@ -47,9 +47,9 @@ const Semana11Class10 = () => {
         <div>
           <h2 className='title-h2'>Temas a ver en Clase 12</h2>
           <ul className='list-disc list-inside'>
-            <li>Graficos para comunicación y presentación de informes</li>
-            <li>Gráficos de barras, barras apilados, trees</li>
-            <li>Visualización interactiva con Plotly</li>
+            <li>Presentación consigan TP Final</li>
+            <li>Primera parte - Graficos para comunicación y presentación de informes</li>
+            <li>Repaso de temas y series de tiempo - lineplot</li>
           </ul>
         </div>
 

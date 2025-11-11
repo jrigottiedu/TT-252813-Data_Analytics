@@ -3,28 +3,29 @@ import React from 'react'
 const Semana12Class11 = () => {
   return (
     <div>
-      <h1 className="title-class">Clase 11 | Lunes 9 de junio</h1>
+      <h1 className="title-class">Clase 12 | Lunes 10 de noviembre</h1>
 
       <section className="home-info-container">
 
         {/* Resumen de clase */}
         <div>
           <h2 className='title-h2'>Resumen de clase</h2>
-          <p className='text-orange-800 font-semibold'>Atención: hoy en clase 11, vimos los contenidos de clase 12 por el feriado del lunes 16</p>
-          <p className='pt-2'>En nuestra clase de hoy comenzamos con Base de Datos!</p>
+          <p className='pt-2'>En nuestra clase de hoy vimos:</p>
           <ul className='list-disc list-inside'>
-            <li>Les comparto el PPT adaptado para esta clase <a href="https://docs.google.com/presentation/d/12tTP9MhWg4d9Oa5ExPDXvttGE46cdbqU/edit?usp=sharing&ouid=115334316874644775342&rtpof=true&sd=true" target='_blank' className='link'>Descargar aquí</a></li>
-            <li>Repasamos listas de listas y listas de diccionario como Intro a Tablas en Bases de datos <a href="https://github.com/jrigottiedu/TT-1C2025-25011-codigo-de-clases/blob/master/semana_12/clase_11/intro_tablas.py" target='_blank' className='link'>Ver código</a></li>
-            <li>Representamos las listas y la tabla en una hoja de cálculo <a href="https://docs.google.com/spreadsheets/d/1LpGS4apt6bqL2qu4L9uNJ5pA1xMgJGiivXZqbIl3rjg/edit?usp=sharing" target='_blank' className='link'>Ver en Google Sheet</a></li>
-            <li>Mencionamos algunos motores de bases de datos y conversamos sobre las bases Relacionales y No relacionales </li>
-            <li>En este curso, nosotros vamos a usar Sqlite3, que viene embebido en Python</li>
-            <li>Instalamos DB Browser, una App para trabajar con Bases de Datos de manera gráfica <a href="https://sqlitebrowser.org/dl/" target='_blank' className='link'>Descargar aquí</a></li>
-            <li>Vimos la teoría de tablas, concepto de campos y registros</li>
-            <li>Luego los tipos de datos disponibles para los campos y sus propiedades</li>
-            <li>Vimos el concepto de "Clave Primaria", única y autoincremental </li>
-            <li>Creamos la tabla y le cargamos algunos registros</li>
-            <li>Mencionamos SQL (Lenguage de consultas estructurados) que vamos a usar para crear tablas, y ejecutar las consultas básicas (SELECT - leer registro, INSERT - agregar registro, UPDATE - actualizar registro, DELETE - borrar registro</li>
-            <li>Ejecutamos una consulta sencilla con SELECT * FROM productos</li>
+            <li>Hoy comenzamos con "Visualización de Datos" para la toma de decisiones estratégicas</li>
+            <li>Presentamos la consigna de la Entrega Final que pueden <a href="https://gamma.app/docs/DATA-ANALYTICS-Clase-15-uy3su99uxzc5v2f?mode=present#card-vk1xuxjoww4mttu" target='_blank' className='link'>ver aquí</a> </li>
+            <li>Los items 1 y 2 los resolvimos en la Pre-Entrega, ahora sólo nos enfocamos en los items 3 y 4</li>
+            <li>Agendamos miércoles 26/11 "Taller de la Entrega Final y lunes 8/12 Plazo final para la entrega (quizás podamos extenderla un poquito)</li>
+            <li>Tengan a mano el calendario con las fechas <a href="https://docs.google.com/spreadsheets/d/1jFZGrekh6l2vAmptrZf8JLTW6Z4bFAbSlYPOz2iMvSw/edit?gid=0#gid=0" target='_blank' className='link'>ver aquí</a></li>
+            <li>Hicimos un repaso de las clases 9-10-11, pasando por Estadística Descriptiva, EDA, hasta correlación y mapas de calor - todos temas a aplicar al proyecto.</li>
+            <li>Luego analizamos gráficos "lineplot" usando la librería Seaborn, primero con un dataset genérico y luego con "superstore" simulando datos reales.</li>
+            <li>Antes de representar las ventas consolidadas y ganancias por mes/año, debimos hacer una limpieza, selección de datos relevantes, transformación de tipo de datos, generación de columnas "year" y "mes" y finalmente agrupación/agregación, de manera de armar el dataset a graficar.</li>
+            <li>Finalmente introducimos un ejemplo de barplot "gráfico de barras" y vimos como comparar "ventas" y "ganancias" de las series de tiempo - a desarrollar en clase 13.</li>
+
+            <li><a href="https://drive.google.com/drive/folders/1JXA_6WwoUME9kMjKiaz3itx_fHxsGCMD" target='_blank' className='link'>Link Notebook con teoría de y datasets - series de tiempo - Google Drive</a></li>
+            <li><a href="https://github.com/jrigottiedu/TT-2C2025-Data-Analitycs-Notebooks/tree/main/_22_Clase_12" target='_blank' className='link'>Link Notebook con teoría y datasets - Github</a></li>
+            <li><a href="https://drive.google.com/drive/folders/1-LCQSvKU8nB07xbxalNC6DTadCakarly?usp=sharing" target='_blank' className='link'>Repo con PPT y Teoría clases 12 y 13</a></li>
+            <li>Pamela Pacho nos compartió este video interesante sobre <a href="https://youtu.be/jOwnJ_gYrg4?si=3cGJJ07_RHj80Oyr" target='_blank' className='link'>IA: ¿se aproxima la mayor BURBUJA financiera de la Historia?</a> para que analicemos sobre el impacto de la IA</li>
           </ul>
         </div>
 
@@ -33,71 +34,28 @@ const Semana12Class11 = () => {
           <h2 className='title-h2'>Grabación de la clase</h2>
           <a
             className='link'
-            href='https://www.youtube.com/watch?v=T-i30KRASEw'
-            alt="Video semana 11 clase 10"
+            href='https://www.youtube.com/watch?v=NRJUReXuX_Q'
+            alt="Video semana 12 clase 12"
             target="_blank">
             Ver aquí en Youtube
           </a>
-        </div>
-        <div>
-          <h2 className='title-h2'>Grabación complementaria (15 min)</h2>
-          <h3>Instalación DB browser, creación de base "inventario" y tabla "productos". Inserción de registros y consultas SQL</h3>
-          <p className='italic'>Les arme este video, porque el Zoom de Windows me desplazó el puntero del Mouse</p>
-          <a
-            className='link'
-            href='https://www.youtube.com/watch?v=h9eOMSrEzyg'
-            alt="Video semana 11 clase 10"
-            target="_blank">
-            Ver aquí en Youtube
-          </a>
-        </div>
-
-        {/* Código de clase en Github */}
-        <div>
-          <h2 className='title-h2'>Código de referencia</h2>
-          <ul className='list-disc list-inside'>
-            <li><span className='font-semibold'>Revisen porfi este código sobre try-exept</span> que lo vamos a estudiar la clase próxima <a href="https://github.com/jrigottiedu/TT-1C2025-25011-codigo-de-clases/blob/master/semana_12/clase_11/try_except.py" target='_blank' className='link'>Ver código en Github</a></li>
-            <li>Para quienes vengan un poco más avanzados, aquí les adelanto algunas funciones para conectarse a la Base inventario desde Python <a href="https://github.com/jrigottiedu/TT-1C2025-25011-codigo-de-clases/blob/master/semana_12/clase_11/intro_sqlite.py" target='_blank' className='link'>Ver en Github</a> </li>
-          </ul>
         </div>
 
         {/* Recordatorios */}
         <div>
           <h2 className='title-h2'>Recordatorios</h2>
           <ul className='list-disc list-inside'>
-            <li>After Class miércoles 11 de junio esta dedicado a quienes adeudan Pre-entrega</li>
-            <li>Lunes 16 de junio es feriado</li>
-            <li>Repasen lo visto hoy con Bases de Datos</li>
-            <li>Eliminen el archivo "inventario.db" y vuelvan a crearlo, puede guiarse por el video simplificado <a
-              className='link'
-              href='https://www.youtube.com/watch?v=h9eOMSrEzyg'
-              alt="Video semana 11 clase 10"
-              target="_blank">
-              Ver aquí en Youtube
-            </a></li>
-            <li>Revisen porfi este código que les arme sobre excepciones <a href="https://github.com/jrigottiedu/TT-1C2025-25011-codigo-de-clases/blob/master/semana_12/clase_11/try_except.py" target='_blank' className='link'>Ver código en Github</a></li>
-            <li>Les voy a grabar un video con los temas de clase 11, asi lo van viendo</li>
-            <li>Si pueden, traten de ir modificando el código de la pre-entrega de manera que les quede modularizado con funciones</li>
-            <li>Nos reencontramos el miércoles 18 en el After Class</li>
+            <li>"Taller especial sobre visualización": este miércoles 12 de noviembre a las 19:00 en Meet - completamos y debatimos sobre los temas de hoy de Visualización</li>
           </ul>
         </div>
 
-        {/* Miscelaneas
-                <div>
-                    <h2 className='title-h2'>Miscelaneas</h2>
-                    <p>Aqui les comparto un video complementario que explica como utilizar el modo Debug</p>
-                    <ul className='list-disc list-inside'>
-                        <li><strong>Video 1: </strong> Utilizando el Modo Debug <a className="link" href="https://youtu.be/spYjDGDKvTM" target='_blank'>Ver en Youtube</a></li>
-                    </ul>
-                </div> */}
-
-        {/* Temas Clase 9 */}
+        {/* Temas Clase 12 */}
         <div>
-          <h2 className='title-h2'>Temas a ver en Clase 12 - lunes 23 de junio</h2>
+          <h2 className='title-h2'>Temas a ver en Clase 13</h2>
           <ul className='list-disc list-inside'>
-
-            <li>Seguimos con try-except</li>
-            <li>Y vamos a ir trabajando por partes, explorando cada una de las consultas SQL, analizándolas desde el DB Browser primero y luego desde Python a través de funciones dedicadas.</li>
+            <li>Segunda parte - Graficos para comunicación y presentación de informes</li>
+            <li>Gráficos de barras, barras apilados, trees</li>
+            <li>Visualización interactiva con Plotly</li>
           </ul>
         </div>
 
