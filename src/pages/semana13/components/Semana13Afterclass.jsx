@@ -13,7 +13,7 @@ const Semana13Afterclass = () => {
           <li>Plotly es otra librería como Matplotlib o Seaborn, pero con la diferencia que permite realizar gráficos interactivos - al estilo de los que vimos en el Taller de Visualización con Looker Studio</li>
           <li>Graficamos dispersión, serie de tiempo y gráficos de barras simple, apilado y side-by-side - <a href="https://colab.research.google.com/drive/1kxSilbnLLs_pH5tZ_zmm9tcTe3cdVpPI?usp=sharing" target='_blank' className='link'>ver Notebook Intro Plotly</a></li>
           <li>Sobre el final de la clase, presentamos un Notebook que compartió la Coordinación con la práctica resuelta de la actividad de Plotly Clase 15 - pero la analizamos en el próximo After Class <a href="https://colab.research.google.com/drive/1dT7zcQHsOeYScFYlB8BPDRu2gbW4zAAu?usp=sharing" target='_blank' className='link'>Notebook Actividades Plotly Clase 15</a></li>
-          <li>Les comparto también la resulución de la activdad de gráficos de barra del After Class 12 <a href="https://drive.google.com/file/d/1gCrbIbOc1M_kpAOQC77D_I5IR4_0yOoX/view?usp=sharing" target='_blank' className='link'>Notebook Resolución After Class 12</a></li>
+          <li>Les comparto también la resulución de la activdad de gráficos de barra del After Class 12 <a href="https://colab.research.google.com/drive/1h5NBaA-GVVm43D74fbUot6qwnybzuH4l?usp=sharing" target='_blank' className='link'>Notebook Resolución After Class 12</a></li>
         </ul>
 
 
