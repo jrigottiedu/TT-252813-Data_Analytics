@@ -3,7 +3,7 @@ import React from 'react'
 const Semana14Class13 = () => {
   return (
     <div>
-      <h1 className="title-class">Feriado | Lunes 23 de junio</h1>
+      <h1 className="title-class">Feriado | Lunes 23 de noviembre</h1>
 
       
     </div>
