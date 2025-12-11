@@ -26,11 +26,11 @@ const Semana16Afterclass = () => {
 
         {/* Grabación de After Class en Youtube */}
         <div className='py-5'>
-          <h2 className='title-h2'>Grabación After Class 15</h2>
+          <h2 className='title-h2'>Grabación After Class 16</h2>
           <a
             className="flex items-center gap-2 no-underline text-gray-700 hover:text-darkblue-600 transition-colors duration-200 pb-5"
             href='https://www.youtube.com/watch?v=OBtlG8Pnm88'
-            alt="Video semana 15 After Class 15"
+            alt="Video semana 16 After Class 16"
             target="_blank">
             <span className="material-icons text-darkblue-600 group-hover:text-darkblue-700">ondemand_video</span>
             <span>Ver en Youtube</span>
