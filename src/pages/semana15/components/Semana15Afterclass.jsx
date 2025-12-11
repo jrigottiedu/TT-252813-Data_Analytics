@@ -4,7 +4,7 @@ const Semana15Afterclass = () => {
   return (
     <div>
       <h1 className="title-afterclass">After Class | Miércoles 3 de diciembre</h1>
-      <section className="home-info-container">
+            <section className="home-info-container">
         <h2 className='title-h2'>After Class 15</h2>
         <ul className='list-disc list-inside'>
           <li>Hoy repasamos los conceptos de regresión lineal y analizamos el caso real con el Dataset de precios de propiedades de Amsterdam</li>
@@ -33,6 +33,7 @@ const Semana15Afterclass = () => {
           </a>
         </div>
       </section>
+     
     </div>
   )
 }

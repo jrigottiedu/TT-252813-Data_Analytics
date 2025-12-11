@@ -4,7 +4,7 @@ const Semana14Afterclass = () => {
   return (
     <div>
       <h1 className="title-afterclass">Taller Entrega Final | Miércoles 26 de noviembre</h1>
-           <section className="home-info-container">
+      <section className="home-info-container">
         <h2 className='title-h2'>After Class 14 - Taller Entrega Final </h2>
         <ul className='list-disc list-inside'>
           <li>Fecha de entrega sugerida: lunes 8 de diciembre</li>
