@@ -3,31 +3,31 @@ import React from 'react'
 const Semana17Class16 = () => {
   return (
     <div>
-      <h1 className="title-class">Clase 17 | Lunes 14 de julio</h1>
+      <h1 className="title-class">Clase 17 | Lunes 15 de diciembre</h1>
 
       <section className="home-info-container">
 
         {/* Resumen de clase */}
         <div>
           <h2 className='title-h2'>Resumen de clase</h2>
-          <p className='font-semibold py-2'>Refactorizamos la pre-entrega para el PFI</p>
+          <p className='font-semibold py-2'>Curso Highlights y breve intro a Machine Learning</p>
           <ul className='list-disc list-inside'>
-            <li>Hoy partimos del archivo codigo_modelo_pre_entrega.py <a href="https://github.com/jrigottiedu/TT-1C2025-25011-codigo-de-clases/blob/master/pre-entrega/codigo_modelo_pre_entrega.py" target='_blank' className='link'>Ver en Github</a></li>
-            <li>Lo refactorizamos, implementando funciones e integrando con la Base de Datos de Sqlite, resultando el archivo main.py <a href="https://github.com/jrigottiedu/TT-1C2025-25011-codigo-de-clases/blob/master/semana_17/clase_16/main.py" target='_blank' className='link'>Ver en Github</a></li>
-            <li>Para las funciones/métodos que manejan los datos en la base, tomamos las funciones listadas en la sección SQL de nuestra Wiki <a href="https://tt-25011-python.vercel.app/#/sql" target='_blank' className='link'>Ver aquí</a></li>
-            <li>Armamos el archivo bd_metodos.py, ajustando esas funciones a los nuevos requerimientos (agregamos los campos descripción y cantidad a nuestra tabla productos) <a href="https://github.com/jrigottiedu/TT-1C2025-25011-codigo-de-clases/blob/master/semana_17/clase_16/bd_metodos.py" target='_blank' className='link'>Ver en Github</a></li>
+            <li>Recorrimos en 10 items los puntos más importantes de la cursada, desde la obtención del dataset y la carga hasta los KPIs, gráficos para toma de decisiones estratégicas y conclusiones finales de nuestro proyecto.</li>
+            <li>Presentamos el ecosistema de Machine Learning con los pricipales modelos de Aprendizaje Supervisado y No Supervisado, cerrando con 2 actividades en The Teachable Machine y TensorFlow Playground (los links estan en el PPT).</li>
+            <li>Acceder al PPT <a href="https://docs.google.com/presentation/d/1KJhi1Q-WMR_vFV_sLxWR5dc2yIZaQJU6/edit?usp=sharing&ouid=115334316874644775342&rtpof=true&sd=true" target='_blank' className='link'>click aquí.</a></li>
           </ul>
         </div>
 
         {/* Grabación de Clase en Youtube */}
-        <div>
-          <h2 className='title-h2'>Video grabado</h2>
+        <div className='py-5'>
+          <h2 className='title-h2'>Grabación Clase de Cierre</h2>
           <a
-            className='link'
-            href='https://www.youtube.com/watch?v=gOj3ZG8v8K0'
-            alt="Video semana 17"
+            className="flex items-center gap-2 no-underline text-gray-700 hover:text-darkblue-600 transition-colors duration-200 pb-5"
+            href='https://www.youtube.com/watch?v=WlRj87fpWXY'
+            alt="Video semana 17 Clase de Cierre"
             target="_blank">
-            Ver aquí en Youtube
+            <span className="material-icons text-darkblue-600 group-hover:text-darkblue-700">ondemand_video</span>
+            <span>Ver en Youtube</span>
           </a>
         </div>
 
@@ -35,25 +35,9 @@ const Semana17Class16 = () => {
         <div>
           <h2 className='title-h2'>Recordatorios</h2>
           <ul className='list-disc list-inside'>
-            <li>Miércoles 16 de julio esta el Taller de la Entrega Final</li>
-          </ul>
-        </div>
-
-        {/* Miscelaneas
-                <div>
-                    <h2 className='title-h2'>Miscelaneas</h2>
-                    <p>Aqui les comparto un video complementario que explica como utilizar el modo Debug</p>
-                    <ul className='list-disc list-inside'>
-                        <li><strong>Video 1: </strong> Utilizando el Modo Debug <a className="link" href="https://youtu.be/spYjDGDKvTM" target='_blank'>Ver en Youtube</a></li>
-                    </ul>
-                </div> */}
-
-
-        {/* Temas Clase 17 */}
-        <div>
-          <h2 className='title-h2'>Clase extra - lunes 21 de julio</h2>
-          <ul>
-            <li>Vamos a armar un taller de 1 hora aproximadamente para ver Git-Github para control de versionado</li>
+            <li>Tienen tiempo hasta el miércoles 17/12 para subir la Entrega Final</li>
+            <li>Quienes puedan y lo deseen se les agradece que completen la "Encuesta de Satisfacción" que encuentran dentro de "Proyecto Final"</li>
+            <li>Ya están abiertas las inscripciones a <a href="https://talentotech.bue.edu.ar/verano" target='_blank' className='link'>Talento Tech Pop-Up (Verano 2026)</a></li>
           </ul>
         </div>
 
