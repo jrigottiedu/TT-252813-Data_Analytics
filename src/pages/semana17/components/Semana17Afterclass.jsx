@@ -3,8 +3,8 @@ import React from 'react'
 const Semana17Afterclass = () => {
   return (
     <div>
-      <h1 className="title-afterclass">After Class | Miércoles 16 de julio</h1>
-      <section className="home-info-container">
+      {/* <h1 className="title-afterclass">After Class | Miércoles 16 de julio</h1> */}
+      {/* <section className="home-info-container">
         <p className='font-bold pb-2'>Taller Entrega Final</p>
 
         <a
@@ -29,7 +29,7 @@ const Semana17Afterclass = () => {
           </ul>
         </div>
 
-      </section>
+      </section> */}
     </div>
   )
 }
